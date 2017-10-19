@@ -1,14 +1,18 @@
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Documentation status: complete
-Data source: manual
 Data available since: UD v2.1
 License: CC BY-SA 4.0
+Includes text: yes
 Genre: news wiki
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: manual native
 Contributors: Kettnerová, Václava; Hajič jr., Jan; Cinková, Silvie; Urešová, Zdeňka; Straka, Milan; Hajič, Jan; Hlaváčová, Jaroslava; Zeman, Daniel
+Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
+Paragraphs to web: 3
 ===============================================================================
-
-
 
 This is a part of the Parallel Universal Dependencies (PUD) treebanks created
 for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to
