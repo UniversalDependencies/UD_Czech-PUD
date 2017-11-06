@@ -1,22 +1,13 @@
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.1
-License: CC BY-SA 4.0
-Includes text: yes
-Genre: news wiki
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: manual native
-Contributors: Kettnerová, Václava; Hajič jr., Jan; Cinková, Silvie; Urešová, Zdeňka; Straka, Milan; Hajič, Jan; Hlaváčová, Jaroslava; Zeman, Daniel
-Contributing: here
-Contact: zeman@ufal.mff.cuni.cz
-Paragraphs to web: 3
-===============================================================================
+# Summary
 
 This is a part of the Parallel Universal Dependencies (PUD) treebanks created
-for the CoNLL 2017 shared task on Multilingual Parsing from Raw Text to
-Universal Dependencies (http://universaldependencies.org/conll17/). There are
+for the [CoNLL 2017 shared task on Multilingual Parsing from Raw Text to
+Universal Dependencies](http://universaldependencies.org/conll17/).
+
+
+# Introduction
+
+There are
 1000 sentences in each language, always in the same order. (The sentence
 alignment is 1-1 but occasionally a sentence-level segment actually consists
 of two real sentences.) The sentences are taken from the news domain (sentence
@@ -41,3 +32,19 @@ of Turku and Swedish by Uppsala University.
 The entire treebank is labeled as test set (and was used for testing in the
 shared task). If it is used for training in future research, the users should
 employ ten-fold cross-validation.
+
+
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v2.1
+License: CC BY-SA 4.0
+Includes text: yes
+Genre: news wiki
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: manual native
+Contributors: Kettnerová, Václava; Hajič jr., Jan; Cinková, Silvie; Urešová, Zdeňka; Straka, Milan; Hajič, Jan; Hlaváčová, Jaroslava; Zeman, Daniel
+Contributing: here
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
