@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2018-11-15 v2.3
+  * Added LDeriv for passive participles (the infinitive of the source verb).
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
