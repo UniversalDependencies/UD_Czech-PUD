@@ -8431,7 +8431,7 @@
 6	:	:	PUNCT	Z:-------------	_	11	punct	_	_
 7	„	"	PUNCT	Z:-------------	_	11	punct	_	SpaceAfter=No
 8	Dvojice	dvojice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	11	nsubj	_	_
-9	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	11	expl:pv	_	LId=s-1
+9	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	_	LGloss=(zvr._zájmeno/částice)
 10	lstí	lest	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	11	obl	_	_
 11	dostala	dostat	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	ccomp	_	_
 12	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	15	case	_	LId=na-1
