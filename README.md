@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Manually fixed errors, mostly "více/méně" as DET(quantifiers) instead of ADV
 * 2018-11-15 v2.3
   * Added LDeriv for passive participles (the infinitive of the source verb).
 * 2017-11-15 v2.1
