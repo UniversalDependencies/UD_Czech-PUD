@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2020-05-15 v2.6
+  * Genitive, dative and instrumental nominals are now considered oblique.
 * 2019-05-15 v2.4
   * Manually fixed errors, mostly "více/méně" as DET(quantifiers) instead of ADV
 * 2018-11-15 v2.3
