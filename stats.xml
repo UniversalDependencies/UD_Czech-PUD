@@ -125,8 +125,9 @@
     <feat name="Voice" value="Pass" upos="ADJ">205</feat><!-- řečeno, propuštěn, nabídnuto, označen, poražena, používán, považováno, považovány, prodán, provedeno -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
-    <dep name="acl">343</dep>
+  <deps unique="42">
+    <dep name="acl">111</dep>
+    <dep name="acl:relcl">232</dep>
     <dep name="advcl">191</dep>
     <dep name="advmod">658</dep>
     <dep name="advmod:emph">170</dep>
