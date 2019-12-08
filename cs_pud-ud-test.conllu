@@ -6698,7 +6698,7 @@
 16	liber	libra	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	15	nmod	15:nmod:gen	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 18	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1
-19	fond	fond	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	conj	1:nsubj|2:conj	_
+19	fond	fond	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	conj	1:nsubj|2:conj|13:obl:do:gen	_
 20	Aviva	Aviva	PROPN	NNXXX-----A----	Foreign=Yes|NameType=Com|Polarity=Pos	19	nmod	19:nmod	_
 21	Investors	Investors	PROPN	NNXXX-----A----	Foreign=Yes|NameType=Com|Polarity=Pos	20	flat	20:flat	_
 22	Multi	Multi	PROPN	NNXXX-----A----	Foreign=Yes|NameType=Com|Polarity=Pos	20	flat	20:flat	_
@@ -10728,13 +10728,13 @@
 8	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl:jako	_
 9	Rýn	Rýn	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	8	nsubj	8:nsubj|21:nmod:z:gen	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-11	Rhôna	Rhôna	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj	SpaceAfter=No
+11	Rhôna	Rhôna	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj|21:nmod:z:gen	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
-13	Inn	Inn	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj	SpaceAfter=No
+13	Inn	Inn	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj|21:nmod:z:gen	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
-15	Ticino	Ticino	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj	_
+15	Ticino	Ticino	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj|21:nmod:z:gen	_
 16	a	a	CCONJ	J^-------------	_	17	cc	17:cc	LId=a-1
-17	Pád	Pád	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj	SpaceAfter=No
+17	Pád	Pád	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing|Polarity=Pos	9	conj	8:nsubj|9:conj|21:nmod:z:gen	SpaceAfter=No
 18	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 19	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	20	case	20:case	LId=z-1
 20	nichž	jenž	PRON	P9XP2----------	Case=Gen|Number=Plur|PrepCase=Pre|PronType=Rel	21	nmod	9:ref	LGloss=(který_[ve_vedl.větě])
@@ -12748,7 +12748,7 @@
 11	uctíváni	uctívaný	ADJ	VsMP---XX-AP---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	0:root|2:conj	LDeriv=uctívat
 12	rituály	rituál	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	11	obl	11:obl:ins|19:obl:arg:o:loc	_
 13	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1
-14	oběťmi	oběť	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	12	conj	11:obl:ins|12:conj	SpaceAfter=No
+14	oběťmi	oběť	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	12	conj	11:obl:ins|12:conj|19:obl:arg:o:loc	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 16	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	17	case	17:case	LId=o-1
 17	kterých	který	DET	P4XP6----------	Case=Loc|Number=Plur|PronType=Int,Rel	19	obl:arg	12:ref	_
@@ -13401,7 +13401,7 @@
 26	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	29	case	29:case	LId=na-1
 27	pochybných	pochybný	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	29	amod	29:amod	_
 28	podpůrných	podpůrný	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	29	amod	29:amod	_
-29	důkazech	důkaz	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	17	conj	13:obl:arg:na:loc|17:conj	SpaceAfter=No
+29	důkazech	důkaz	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	17	conj	13:obl:arg:na:loc|17:conj|23:nsubj	SpaceAfter=No
 30	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
 # sent_id = w01072046
@@ -15517,7 +15517,7 @@
 15	Bill	Bill	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	14	nsubj	14:nsubj|22:nsubj	_
 16	Gold	Gold	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	15	flat	15:flat	_
 17	a	a	CCONJ	J^-------------	_	18	cc	18:cc	LId=a-1
-18	Saul	Saul	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	15	conj	14:nsubj|15:conj	_
+18	Saul	Saul	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	15	conj	14:nsubj|15:conj|22:nsubj	_
 19	Bass	Bass	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	18	flat	18:flat	SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
 21	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	22	nsubj	15:ref	_
@@ -16693,7 +16693,7 @@
 13	též	též	ADV	Db-------------	_	14	advmod:emph	14:advmod:emph	_
 14	zpěvákem	zpěvák	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	10	appos	10:appos|25:nsubj	_
 15	a	a	CCONJ	J^-------------	_	16	cc	16:cc	LId=a-1
-16	autorem	autor	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	14	conj	10:appos|14:conj	_
+16	autorem	autor	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	14	conj	10:appos|14:conj|25:nsubj	_
 17	textů	text	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	16	nmod	16:nmod:gen	_
 18	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1
 19	hudby	hudba	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	17	conj	16:nmod:gen|17:conj	SpaceAfter=No
