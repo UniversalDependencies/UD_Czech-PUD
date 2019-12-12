@@ -41,6 +41,7 @@ employ ten-fold cross-validation.
   * Added enhanced graphs (shared parents in coordination).
   * Added enhanced relations with case information.
   * Added enhanced relations around relative clauses.
+  * Added enhanced external subjects in control verb constructions.
 * 2019-05-15 v2.4
   * Manually fixed errors, mostly "více/méně" as DET(quantifiers) instead of ADV
 * 2018-11-15 v2.3
