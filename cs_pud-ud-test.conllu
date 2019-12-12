@@ -2988,7 +2988,7 @@
 # orig_file_sentence test002#15
 # text_en = That's what keeps us coming back for more.
 1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
-2	nás	já	PRON	PP-P4--1-------	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	3:iobj	_
+2	nás	já	PRON	PP-P4--1-------	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	3:iobj|5:nsubj	_
 3	nutí	nutit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	neustále	neustále	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	5:advmod	LDeriv=neustálý
 5	vyhledávat	vyhledávat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	xcomp	3:xcomp	LDeriv=vyhledat
@@ -3594,7 +3594,7 @@
 17	kostely	kostel	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	16	obj	16:obj	_
 18	a	a	CCONJ	J^-------------	_	19	cc	19:cc	LId=a-1
 19	učil	učit	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	conj	0:root|16:conj	_
-20	lidi	člověk	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	19	iobj	19:iobj	_
+20	lidi	člověk	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	19	iobj	19:iobj|21:nsubj	_
 21	potýkat	potýkat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	19	xcomp	19:xcomp	_
 22	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	21	expl:pv	21:expl:pv	LGloss=(zvr._zájmeno/částice)
 23	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	24	case	24:case	LId=s-1
@@ -7220,7 +7220,7 @@
 7	neobvyklého	obvyklý	ADJ	AANS2----1N----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	6	amod	6:amod	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	což	což	PRON	PE--1----------	Case=Nom|PronType=Rel	11	nsubj	11:nsubj	LId=což-1
-10	ho	on	PRON	PHZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	11:obj	LId=on-1
+10	ho	on	PRON	PHZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obj	11:obj|12:nsubj	LId=on-1
 11	činí	činit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	0:root|5:conj	_
 12	přitažlivým	přitažlivý	ADJ	AAIP3----1A----	Animacy=Inan|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	11	xcomp	11:xcomp	SpaceAfter=No
 13	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
@@ -14623,7 +14623,7 @@
 10	1960	1960	NUM	C=-------------	NumForm=Digit|NumType=Card	9	nummod	9:nummod	_
 11	GM	GM	PROPN	NNXXX-----A----	Abbr=Yes|NameType=Com,Pro|Polarity=Pos	7	iobj	7:iobj	_
 12	a	a	CCONJ	J^-------------	_	13	cc	13:cc	LId=a-1
-13	Ford	Ford	PROPN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|NameType=Com,Pro|Number=Sing|Polarity=Pos	11	conj	7:iobj|11:conj	LId=Ford-2
+13	Ford	Ford	PROPN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|NameType=Com,Pro|Number=Sing|Polarity=Pos	11	conj	7:iobj|11:conj|14:nsubj	LId=Ford-2
 14	představit	představit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	LId=představit-1|LGloss=(si_něco;_něco/někoho_někomu)
 15	vlastní	vlastní	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	17	amod	17:amod	LGloss=(příslušný_k_něčemu)
 16	menší	malý	ADJ	AAIP4----2A----	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	17	amod	17:amod	_
@@ -23076,7 +23076,7 @@
 11	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	12:case	LId=u-1
 12	Marenga	Marengo	PROPN	NNNS2-----A----	Case=Gen|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	10	nmod	10:nmod:u:gen	_
 13	přinutilo	přinutit	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-14	Rakušany	Rakušan	PROPN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Nat|Number=Plur|Polarity=Pos	13	obj	13:obj	_
+14	Rakušany	Rakušan	PROPN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Nat|Number=Plur|Polarity=Pos	13	obj	13:obj|15:nsubj	_
 15	vzdát	vzdát	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	13	xcomp	13:xcomp	_
 16	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	15	expl:pv	15:expl:pv	LGloss=(zvr._zájmeno/částice)
 17	Itálie	Itálie	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	15	obl:arg	15:obl:arg:gen	_
