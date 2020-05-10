@@ -36,6 +36,13 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2020-05-15 v2.6
+  * Genitive, dative and instrumental nominals are now considered oblique.
+  * Added enhanced graphs (shared parents in coordination).
+  * Added enhanced relations with case information.
+  * Added enhanced relations around relative clauses.
+  * Added enhanced external subjects in control verb constructions.
+  * Added empty nodes to enhanced graphs (but orphans are just converted to dep).
 * 2019-05-15 v2.4
   * Manually fixed errors, mostly "více/méně" as DET(quantifiers) instead of ADV
 * 2018-11-15 v2.3

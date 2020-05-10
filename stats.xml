@@ -125,8 +125,9 @@
     <feat name="Voice" value="Pass" upos="ADJ">205</feat><!-- řečeno, propuštěn, nabídnuto, označen, poražena, používán, považováno, považovány, prodán, provedeno -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
-    <dep name="acl">343</dep>
+  <deps unique="42">
+    <dep name="acl">111</dep>
+    <dep name="acl:relcl">232</dep>
     <dep name="advcl">191</dep>
     <dep name="advmod">658</dep>
     <dep name="advmod:emph">170</dep>
@@ -150,16 +151,17 @@
     <dep name="expl:pv">240</dep>
     <dep name="fixed">73</dep>
     <dep name="flat">317</dep>
-    <dep name="iobj">151</dep>
+    <dep name="iobj">13</dep>
     <dep name="mark">406</dep>
     <dep name="nmod">1781</dep>
     <dep name="nsubj">1245</dep>
     <dep name="nsubj:pass">153</dep>
     <dep name="nummod">319</dep>
     <dep name="nummod:gov">74</dep>
-    <dep name="obj">918</dep>
+    <dep name="obj">745</dep>
     <dep name="obl">1014</dep>
     <dep name="obl:agent">21</dep>
+    <dep name="obl:arg">311</dep>
     <dep name="orphan">15</dep>
     <dep name="parataxis">20</dep>
     <dep name="punct">2624</dep>
