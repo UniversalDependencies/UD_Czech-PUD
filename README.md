@@ -36,6 +36,9 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2022-05-15 v2.10
+  * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
+  * Added VerbForm=Vnoun to verbal nouns.
 * 2020-05-15 v2.6
   * Genitive, dative and instrumental nominals are now considered oblique.
   * Added enhanced graphs (shared parents in coordination).
