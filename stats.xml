@@ -32,7 +32,7 @@
     <tag name="VERB">1752</tag><!-- mít, moci, stát, být, říci, začít, vést, muset, říkat, uvést -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="90">
+  <feats unique="91">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PROPN">111</feat><!-- l, n, př, USA, BBC, CNN, EU, DNA, GCA, MPS -->
     <feat name="AdpType" value="Comprep" upos="ADP">3</feat><!-- vzhledem -->
     <feat name="AdpType" value="Prep" upos="ADP">1688</feat><!-- v, na, z, s, do, o, k, pro, za, po -->
@@ -120,9 +120,10 @@
     <feat name="VerbForm" value="Conv" upos="VERB">3</feat><!-- Počínaje, nedbajíce, redukujíc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">953</feat><!-- je, by, jsou, bude, má, jsem, není, může, říká, mohou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">309</feat><!-- být, mít, vidět, získat, najít, opustit, pokračovat, stát, vést, dělat -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">1405</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">1551</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">251</feat><!-- omezení, rozhodnutí, chování, jednání, oddělení, opatření, umění, hlasování, oblečení, pochopení -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">2052</feat><!-- je, byl, bylo, byla, jsou, byly, bude, řekl, má, jsem -->
-    <feat name="Voice" value="Pass" upos="ADJ">205</feat><!-- řečeno, propuštěn, nabídnuto, označen, poražena, používán, považováno, považovány, prodán, provedeno -->
+    <feat name="Voice" value="Pass" upos="ADJ">351</feat><!-- Spojených, řečeno, propuštěn, Spojené, Spojeným, kvalifikovaných, nabídnuto, otevřenou, otevřená, označen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
