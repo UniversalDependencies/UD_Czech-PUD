@@ -52,9 +52,9 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2022</feat><!-- další, nové, stejně, jižní, severní, často, hlavní, velká, velké, vlastní -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">51</feat><!-- nejvyšší, největší, nejlépe, Nejnovější, nejdůležitější, nejhorších, nejlepších, nejvyšším, nejvíce, největším -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON,PROPN">196</feat><!-- de, USA, Danevirke, The, CNN, National, and, Aviva, Company, George -->
-    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2991</feat><!-- která, které, první, době, své, oblasti, války, společnosti, svou, této -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2992</feat><!-- která, které, první, době, své, oblasti, války, společnosti, svou, této -->
     <feat name="Gender" value="Fem,Masc" upos="ADJ,AUX,VERB">155</feat><!-- byly, nebyly, měly, vypadaly, začaly, mohly, používaly, považovány, umožnily, vedly -->
-    <feat name="Gender" value="Fem,Neut" upos="ADJ,AUX,DET,NUM,VERB">319</feat><!-- byla, dvě, stala, uvedla, mohla, vedla, měla, nebyla, ukázala, vydala -->
+    <feat name="Gender" value="Fem,Neut" upos="ADJ,AUX,DET,NUM,VERB">318</feat><!-- byla, dvě, stala, uvedla, mohla, vedla, měla, nebyla, ukázala, vydala -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">4255</feat><!-- byl, roce, který, roku, řekl, kteří, které, tento, byli, l -->
     <feat name="Gender" value="Masc,Neut" upos="DET,NUM,PRON">196</feat><!-- toho, tím, tohoto, ho, n, svého, tomu, mu, její, něj -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1565</feat><!-- to, bylo, let, století, letech, území, období, toto, moře, místo -->

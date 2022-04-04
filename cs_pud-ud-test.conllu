@@ -271,7 +271,7 @@
 3	aby	aby	SCONJ	J,-------------	_	6	mark	6:mark	_
 4	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	6	aux	6:aux	_
 5	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pass	6:expl:pass	LGloss=(zvr._zájmeno/částice)
-6	vyučovala	vyučovat	VERB	VpQW---XR-AA---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	13:advcl:než	_
+6	vyučovala	vyučovat	VERB	VpQW---XR-AA---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	13:advcl:než_aby	_
 7	vědecká	vědecký	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 8	metoda	metoda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj:pass	6:nsubj:pass	_
 9	zvlášť	zvlášť	ADV	Db-------------	_	6	advmod	6:advmod	SpaceAfter=No|LId=zvlášť-1
@@ -4591,7 +4591,7 @@
 19	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	22	obj	22:obj	_
 20	bez	bez	ADP	RR--2----------	AdpType=Prep|Case=Gen	21	case	21:case	LId=bez-1
 21	povšimnutí	povšimnutí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	22	obl	22:obl:bez:gen	LDeriv=povšimnout
-22	míjeli	míjet	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	8:advcl:než	SpaceAfter=No
+22	míjeli	míjet	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	8:advcl:než_aby	SpaceAfter=No
 23	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # newdoc id = n01075
@@ -18163,7 +18163,7 @@
 22	balkánské	balkánský	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	23	amod	23:amod	_
 23	spojence	spojenec	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	10	obl	10:obl:mezi:acc	SpaceAfter=No
 24	,	,	PUNCT	Z:-------------	_	25	punct	25:punct	_
-25	redukujíc	redukovat	VERB	VmHS------A---4	Aspect=Perf|Gender=Fem,Neut|Number=Sing|Polarity=Pos|Style=Arch|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	10:advcl	_
+25	redukujíc	redukovat	VERB	VmHS------A---4	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Style=Arch|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	10:advcl	_
 26	tak	tak	CCONJ	J^-------------	_	25	cc	25:cc	LId=tak-2
 27	území	území	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	25	obj	25:obj	_
 28	Albánie	Albánie	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	27	nmod	27:nmod:gen	_
