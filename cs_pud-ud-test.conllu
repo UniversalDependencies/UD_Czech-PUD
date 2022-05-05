@@ -470,7 +470,7 @@
 8	ale	ale	CCONJ	J^-------------	_	11	cc	11:cc	_
 9	není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 10	vždycky	vždycky	ADV	Db--------A----	Polarity=Pos	11	advmod	11:advmod	_
-11	samo	sám	DET	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp	6	conj	0:root|6:conj	SpaceAfter=No|LGloss=(samotný)
+11	samo	samý	DET	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp|Variant=Short	6	conj	0:root|6:conj	SpaceAfter=No|LGloss=(samotný)
 12	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
 # sent_id = n01009054
@@ -908,7 +908,7 @@
 13	každá	každý	DET	AAFS1----1A----	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	14	det	14:det	_
 14	aerolinka	aerolinka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	15	nsubj	15:nsubj	_
 15	dělala	dělat	VERB	VpQW---XR-AA---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	4:ccomp	_
-16	sama	sám	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	14	acl	14:acl	SpaceAfter=No|LGloss=(samotný)
+16	sama	samý	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp|Variant=Short	14	acl	14:acl	SpaceAfter=No|LGloss=(samotný)
 17	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = n01017013
@@ -4847,7 +4847,7 @@
 16	budou	být	AUX	VB-P---3F-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
 17	raději	rád	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	18	advmod	18:advmod	_
 18	dívat	dívat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	12	ccomp	12:ccomp	_
-19	sami	sám	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	18	advcl	18:advcl	SpaceAfter=No|LGloss=(samotný)
+19	sami	samý	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Emp|Variant=Short	18	advcl	18:advcl	SpaceAfter=No|LGloss=(samotný)
 20	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # newdoc id = n01081
@@ -5354,7 +5354,7 @@
 # text = Sama Wintour se objeví jen krátce a v záběru si před rozhovorem nasazuje brýle.
 # orig_file_sentence test003#17
 # text_en = Wintour herself appears briefly, and is filmed putting her sunglasses on before being interviewed.
-1	Sama	sám	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	2	det	2:det	LGloss=(samotný)
+1	Sama	samý	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp|Variant=Short	2	det	2:det	LGloss=(samotný)
 2	Wintour	Wintour	PROPN	NNFXX-----A----	Gender=Fem|NameType=Sur|Polarity=Pos	4	nsubj	4:nsubj	_
 3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	LGloss=(zvr._zájmeno/částice)
 4	objeví	objevit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -8719,7 +8719,7 @@
 7	koncert	koncert	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	5:nmod:na:acc	_
 8	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	LId=v-1
 9	ten	ten	DET	PDIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	11:det	_
-10	samý	samý	PRON	PLIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	11	det	11:det	_
+10	samý	samý	DET	PLIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Emp	11	det	11:det	_
 11	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	5:nmod:v:acc	SpaceAfter=No|LGloss=(jednotka_času)
 12	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -11057,7 +11057,7 @@
 10	užitek	užitek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	7	obl:arg	7:obl:arg:o:acc	_
 11	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	12:case	LId=z-1
 12	něj	on	PRON	P5ZS2--3-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	10	nmod	10:nmod:z:gen	LId=on-1
-13	samého	samý	PRON	PLZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Tot	12	det	12:det	SpaceAfter=No
+13	samého	samý	DET	PLZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Emp	12	det	12:det	SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
 # newdoc id = w01036
@@ -13870,7 +13870,7 @@
 12	války	válka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	11:nmod:gen	_
 13	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	14	case	14:case	LId=pro-1
 14	lidstvo	lidstvo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	11	nmod	11:nmod:pro:acc	_
-15	samé	samý	PRON	PLNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	det	14:det	SpaceAfter=No
+15	samé	samý	DET	PLNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Emp	14	det	14:det	SpaceAfter=No
 16	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # newdoc id = w01079
@@ -16081,7 +16081,7 @@
 4	našla	najít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	snadno	snadno	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod	4:advmod	_
 6	a	a	CCONJ	J^-------------	_	8	cc	8:cc	LId=a-1
-7	sama	sám	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	8	nsubj	8:nsubj	LGloss=(samotný)
+7	sama	samý	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp|Variant=Short	8	nsubj	8:nsubj	LGloss=(samotný)
 8	říká	říkat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	SpaceAfter=No
 9	:	:	PUNCT	Z:-------------	_	18	punct	18:punct	_
 10	„	„	PUNCT	Z:-------------	_	18	punct	18:punct	SpaceAfter=No
@@ -18643,7 +18643,7 @@
 1	Simon	Simon	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	3	nsubj	3:nsubj	_
 2	Krätschmer	Krätschmer	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	_
 3	tápe	tápat	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	1	acl	1:acl	LGloss=(samotný)
+4	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	1	acl	1:acl	LGloss=(samotný)
 5	zlověstným	zlověstný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 6	zchátralým	zchátralý	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	7:amod	LDeriv=zchátrat
 7	domem	dům	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	3	obl	3:obl:ins	SpaceAfter=No
@@ -20748,7 +20748,7 @@
 # orig_file_sentence test009#64
 # text_en = He stands alone in front of the audience and, ultimately, he has to bring out the best of himself in order to make the audience laugh.
 1	Stojí	stát	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LId=stát-3|LGloss=(někdo/něco_stojí,_např._na_nohou)
-2	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	1	advcl	1:advcl	LGloss=(samotný)
+2	sám	samý	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short	1	advcl	1:advcl	LGloss=(samotný)
 3	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	4:case	LId=před-1
 4	publikem	publikum	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	1	obl	1:obl:před:ins	_
 5	a	a	CCONJ	J^-------------	_	9	cc	9:cc	LId=a-1
