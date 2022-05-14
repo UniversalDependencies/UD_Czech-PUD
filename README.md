@@ -36,6 +36,12 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2022-05-15 v2.10
+  * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
+  * Added VerbForm=Vnoun to verbal nouns.
+  * The word 'každý' is now DET instead of ADJ.
+  * The verb 'být' is now AUX in all contexts.
+  * Merged PRON/DET 'sám', 'samý'.
 * 2020-05-15 v2.6
   * Genitive, dative and instrumental nominals are now considered oblique.
   * Added enhanced graphs (shared parents in coordination).
