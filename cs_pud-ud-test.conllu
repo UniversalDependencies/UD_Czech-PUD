@@ -11721,7 +11721,7 @@
 2	samospráva	samospráva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	_
 3	Kapského	kapský	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	Města	město	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	2	nmod	2:nmod:gen	_
-5	nese	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	nese	nést	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	název	název	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	obj	5:obj	_
 7	City	city	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	6	nmod	6:nmod:nom	_
 8	of	of	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	flat	7:flat	_
