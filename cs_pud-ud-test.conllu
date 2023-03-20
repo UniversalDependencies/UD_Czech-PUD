@@ -7665,7 +7665,7 @@
 11	svádět	svádět	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	5	acl:relcl	5:acl:relcl	_
 12	boj	boj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	11	nsubj:pass	11:nsubj:pass	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-14	povede	povést	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	povede	vést	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
 15	ke	k	ADP	RV--3----------	AdpType=Voc|Case=Dat	16	case	16:case	LId=k-1
 16	zmatkům	zmatek	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	14	obl	14:obl:k:dat	_
 17	během	během	ADP	RR--2----------	AdpType=Prep|Case=Gen	19	case	19:case	_
@@ -14363,7 +14363,7 @@
 20	klasická	klasický	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	21	amod	21:amod	_
 21	studia	studium	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos	22	nsubj	22:nsubj	_
 22	poskytují	poskytovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	csubj:pass	17:csubj:pass	_
-23	studujícím	studující	ADJ	AGNS7-----A----	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	22	obl:arg	22:obl:arg:ins	LDeriv=studovat
+23	studujícím	studující	ADJ	AGNS3-----A----	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	22	obl:arg	22:obl:arg:dat	LDeriv=studovat
 24	morální	morální	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	25	amod	25:amod	_
 25	ponaučení	ponaučení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	22	obj	22:obj	LDeriv=ponaučit
 26	a	a	CCONJ	J^-------------	_	28	cc	28:cc	LId=a-1
