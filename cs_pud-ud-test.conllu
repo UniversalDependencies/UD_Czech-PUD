@@ -2259,7 +2259,7 @@
 25	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 26	že	že	SCONJ	J,-------------	_	28	mark	28:mark	LId=že-1
 27	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	28	expl:pv	28:expl:pv	LGloss=(zvr._zájmeno/částice)
-28	dopouštěli	dopouštět	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	24	ccomp	24:ccomp	_
+28	dopouštěli	dopouštět	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	24	csubj:pass	24:csubj:pass	_
 29	neetického	etický	ADJ	AANS2----1N----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	30	amod	30:amod	_
 30	chování	chování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	28	obl:arg	28:obl:arg:gen	SpaceAfter=No|LDeriv=chovat
 31	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
@@ -2856,7 +2856,7 @@
 4	ani	ani	CCONJ	J^-------------	_	5	cc	5:cc	LId=ani-1
 5	jednotlivec	jednotlivec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	conj	3:conj|7:nsubj|8:nsubj	_
 6	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	7	aux	7:aux	_
-7	neměli	mít	VERB	VpMP---XR-NA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	34	ccomp	34:ccomp	_
+7	neměli	mít	VERB	VpMP---XR-NA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	34	csubj:pass	34:csubj:pass	_
 8	mít	mít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	_
 9	umetenou	umetený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	10:amod	LDeriv=umést
 10	cestičku	cestička	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	8	obj	8:obj	_
@@ -8613,12 +8613,12 @@
 3	Anaya	Anaya	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 5	jedna	jeden	NUM	ClFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	1	appos	1:appos	LNumValue=1
-6	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	9:case	LId=z-1
-7	kreativních	kreativní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	9	amod	9:amod	_
-8	vedoucích	vedoucí	ADJ	AGFP2-----A----	Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	9:amod	LDeriv=vést
-9	karnevalu	karneval	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	5:nmod:z:gen	SpaceAfter=No
+6	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	8:case	LId=z-1
+7	kreativních	kreativní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	8:amod	_
+8	vedoucích	vedoucí	NOUN	NNFP2-----A----	Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	nmod	5:nmod:z:gen	LDeriv=vést
+9	karnevalu	karneval	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	8	nmod	8:nmod:gen	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
-11	CNN	CNN	PROPN	NNNXX-----A---8	Abbr=Yes|Foreign=Yes|Gender=Neut|NameType=Com|Polarity=Pos	12	iobj	12:iobj	LId=CNN-1|LGloss=(Cable_News_Network,_USA_TV)
+11	CNN	CNN	PROPN	NNNXX-----A---8	Abbr=Yes|Foreign=Yes|Gender=Neut|NameType=Com|Polarity=Pos	12	obl:arg	12:obl:arg:dat	LId=CNN-1|LGloss=(Cable_News_Network,_USA_TV)
 12	vysvětlila	vysvětlit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 14	proč	proč	ADV	Db-------------	PronType=Int,Rel	17	advmod	17:advmod	_
@@ -12190,7 +12190,7 @@
 6	bitvě	bitva	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	7	obl	7:obl:v:loc	_
 7	bojoval	bojovat	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	2:ccomp	_
 8	dvě	dva	NUM	ClHP4----------	Case=Acc|Gender=Fem,Neut|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	9	nummod	9:nummod	LNumValue=2
-9	hodiny	hodina	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	7	obj	7:obj	SpaceAfter=No|LGloss=(jednotka_času)
+9	hodiny	hodina	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	7	obl	7:obl	SpaceAfter=No|LGloss=(jednotka_času)
 10	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 11	aniž	aniž	SCONJ	J,-------------	_	14	mark	14:mark	_
 12	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	14	aux	14:aux	_
@@ -14661,7 +14661,7 @@
 18	jména	jméno	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	17	nmod	17:nmod:gen	_
 19	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	20	case	20:case	LId=mezi-1
 20	přáteli	přítel	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	17	nmod	17:nmod:mezi:ins	_
-21	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	22	expl:pv	22:expl:pv	LGloss=(zvr._zájmeno/částice)
+21	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	22	expl:pass	22:expl:pass	LGloss=(zvr._zájmeno/částice)
 22	nedoporučuje	doporučovat	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	0:root|13:conj	SpaceAfter=No
 23	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 
@@ -16395,7 +16395,7 @@
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	2:case	LId=v-1
 2	roce	rok	NOUN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	7:obl:v:loc	_
 3	1770	1770	NUM	C=-------------	NumForm=Digit|NumType=Card	2	nummod	2:nummod	_
-4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	7	expl:pass	7:expl:pass	LGloss=(zvr._zájmeno/částice)
+4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	7	expl:pv	7:expl:pv	LGloss=(zvr._zájmeno/částice)
 5	Graftonova	Graftonův	ADJ	AUFS1M---------	Case=Nom|Gender=Fem|Gender[psor]=Masc|NameType=Sur|Number=Sing|Poss=Yes	6	amod	6:amod	LDeriv=Grafton
 6	vláda	vláda	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj	_
 7	rozpadla	rozpadnout	VERB	VpQW---XR-AA--1	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
@@ -16609,7 +16609,7 @@
 15	stal	stát	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	conj	0:root|11:conj	LId=stát-2|LGloss=(něco_se_přihodilo)
 16	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	15	expl:pv	15:expl:pv	LGloss=(zvr._zájmeno/částice)
 17	toho	ten	DET	PDZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	18	det	18:det	_
-18	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	15	obl:arg	15:obl:arg:gen	_
+18	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	15	obl	15:obl:gen	_
 19	jako	jako	SCONJ	J,-------------	_	21	mark	21:mark	LId=jako-1
 20	poslední	poslední	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	21	amod	21:amod	_
 21	jezdec	jezdec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	15	obl	15:obl:jako|27:nsubj	SpaceAfter=No
