@@ -11769,7 +11769,7 @@
 6	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	8	case	8:case	LId=s-1
 7	mnoha	mnoho	DET	Ca--7----------	Case=Ins|NumType=Card|PronType=Ind	8	det:nummod	8:det:nummod	LId=mnoho-1
 8	vědci	vědec	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	5	nmod	5:nmod:s:ins|16:nsubj	_
-9	zaměstnanými	zaměstnaný	ADJ	AAMP7----1A----	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	LId=zaměstnaný-1|LGloss=(všeob._význam:_činnost,_zaměstnání)|LDeriv=zaměstt-1
+9	zaměstnanými	zaměstnaný	ADJ	AAMP7----1A----	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	amod	8:amod	LDeriv=zaměstnat|LId=zaměstnaný-1|LGloss=(všeob._význam:_činnost,_zaměstnání)|LDeriv=zaměstt-1
 10	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	12:case	LId=na-1
 11	státních	státní	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	12	amod	12:amod	_
 12	projektech	projekt	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	9	nmod	9:nmod:na:loc	SpaceAfter=No
@@ -20521,7 +20521,7 @@
 11	%	%	SYM	Z:-------------	_	8	obl	8:obl:pod:acc	_
 12	a	a	CCONJ	J^-------------	_	14	cc	14:cc	LId=a-1
 13	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
-14	zaměstnaných	zaměstnaný	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	conj	0:root|8:conj	LId=zaměstnaný-1|LGloss=(všeob._význam:_činnost,_zaměstnání)|LDeriv=zaměstt-1
+14	zaměstnaných	zaměstnaný	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	conj	0:root|8:conj	LDeriv=zaměstnat|LId=zaměstnaný-1|LGloss=(všeob._význam:_činnost,_zaměstnání)|LDeriv=zaměstt-1
 15	již	již	ADV	Db-------------	_	17	advmod:emph	17:advmod:emph	LId=již-1
 16	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	17	case	17:case	LId=o-1
 17	600 000	600 000	NUM	C=-------------	NumForm=Digit|NumType=Card	18	nmod	18:nmod:o:acc	_
