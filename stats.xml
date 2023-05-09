@@ -15,13 +15,13 @@
   <fusions unique="5" /><!-- aby, kdyby, abych, abychom, abyste -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">2270</tag><!-- velký, nový, další, první, vysoký, druhý, poslední, americký, jiný, jižní -->
+    <tag name="ADJ">2269</tag><!-- velký, nový, další, první, vysoký, druhý, poslední, americký, jiný, jižní -->
     <tag name="ADP">1842</tag><!-- v, na, z, s, do, k, o, pro, za, po -->
     <tag name="ADV">837</tag><!-- tak, také, jak, hodně, poté, už, kde, pouze, stejně, ještě -->
-    <tag name="AUX">684</tag><!-- být, bývat -->
+    <tag name="AUX">683</tag><!-- být, bývat -->
     <tag name="CCONJ">660</tag><!-- a, ale, i, nebo, však, avšak, nicméně, až, ani, tedy -->
     <tag name="DET">844</tag><!-- ten, který, jeho, tento, svůj, mnoho, můj, každý, všechen, některý -->
-    <tag name="NOUN">4482</tag><!-- rok, člověk, doba, město, stát, oblast, válka, místo, země, část -->
+    <tag name="NOUN">4483</tag><!-- rok, člověk, doba, město, stát, oblast, válka, místo, země, část -->
     <tag name="NUM">459</tag><!-- jeden, dva, oba, tři, čtyři, deset, 1, 3, šest, 20 -->
     <tag name="PART">56</tag><!-- jen, až, asi, ne, bohužel, jenom, ovšem, snad, vůbec, ať -->
     <tag name="PRON">576</tag><!-- se, on, já, což, jenž, co, něco, nic, kdo, někdo -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">2624</tag><!-- ,, ., ", -, (, ), :, ;, ?, – -->
     <tag name="SCONJ">452</tag><!-- že, jako, aby, když, než, co, pokud, zatímco, protože, zda -->
     <tag name="SYM">15</tag><!-- %, & -->
-    <tag name="VERB">1718</tag><!-- mít, moci, stát, říci, začít, vést, muset, říkat, uvést, získat -->
+    <tag name="VERB">1719</tag><!-- mít, moci, stát, říci, vést, začít, muset, říkat, uvést, získat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="91">
@@ -39,12 +39,12 @@
     <feat name="AdpType" value="Voc" upos="ADP">149</feat><!-- ve, ze, se, ke, skrze, za -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1292</feat><!-- kteří, byli, lidí, lidé, obyvatel, prezident, člověk, investoři, kdo, král -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">2471</feat><!-- roce, roku, byly, co, které, l, rok, případě, svůj, dolarů -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">753</feat><!-- říká, obsahuje, pomáhá, pracoval, ukazuje, existují, patří, pokračovat, tvrdí, dělat -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">753</feat><!-- říká, obsahuje, pomáhá, pracoval, ukazuje, existují, patří, pokračovat, tvrdí, dělat -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">493</feat><!-- rozhodl, vrátil, objevil, opustit, vydala, získat, navštívil, rozhodli, setkal, udělat -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2258</feat><!-- se, na, pro, za, o, to, své, v, ho, svůj -->
-    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">502</feat><!-- k, si, proti, ke, tomu, mu, jí, kvůli, jim, nám -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">503</feat><!-- k, si, proti, ke, tomu, mu, jí, kvůli, jim, nám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2512</feat><!-- z, do, od, roku, ze, let, během, podle, toho, století -->
-    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">910</feat><!-- s, mezi, před, tím, se, pod, l, n, př, nad -->
+    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">909</feat><!-- s, mezi, před, tím, se, pod, l, n, př, nad -->
     <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">1798</feat><!-- v, na, ve, roce, po, o, při, letech, době, případě -->
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2507</feat><!-- to, který, která, které, kteří, což, mnoho, další, tento, co -->
     <feat name="Case" value="Voc" upos="NOUN">1</feat><!-- přátelé -->
@@ -113,17 +113,17 @@
     <feat name="Style" value="Coll" upos="ADJ,NOUN,VERB">4</feat><!-- chatovacím, podezřelý, potřebujem, sken -->
     <feat name="Style" value="Expr" upos="ADJ">1</feat><!-- ztřeštěné -->
     <feat name="Style" value="Rare" upos="ADJ,NOUN,PROPN,VERB">13</feat><!-- ujal, AIDS, Australia, Capitol, Francisco, Jasona, Kenya, Kilimanjaro, datum, napjatá -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">49</feat><!-- bude, budou, nebude, budeme, budu, nebudou, půjde, nebudu, neporoste -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">50</feat><!-- bude, budou, nebude, budeme, budu, nebudou, půjde, nebudu, neporoste, povede -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1138</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
-    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">864</feat><!-- je, jsou, má, jsem, není, může, říká, mohou, jsme, mají -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">863</feat><!-- je, jsou, má, jsem, není, může, říká, mohou, jsme, mají -->
     <feat name="Variant" value="Short" upos="ADJ,DET,PRON">606</feat><!-- se, si, ho, mu, mě, schopen, řečeno, propuštěn, rád, sama -->
     <feat name="VerbForm" value="Conv" upos="VERB">3</feat><!-- Počínaje, nedbajíce, redukujíc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">953</feat><!-- je, by, jsou, bude, má, jsem, není, může, říká, mohou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">309</feat><!-- být, mít, vidět, získat, najít, opustit, pokračovat, stát, vést, dělat -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">1551</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">1553</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">251</feat><!-- omezení, rozhodnutí, chování, jednání, oddělení, opatření, umění, hlasování, oblečení, pochopení -->
-    <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">2052</feat><!-- je, byl, bylo, byla, jsou, byly, bude, řekl, má, jsem -->
-    <feat name="Voice" value="Pass" upos="ADJ">351</feat><!-- Spojených, řečeno, propuštěn, Spojené, Spojeným, kvalifikovaných, nabídnuto, otevřenou, otevřená, označen -->
+    <feat name="Voice" value="Act" upos="ADJ,AUX,NOUN,VERB">2052</feat><!-- je, byl, bylo, byla, jsou, byly, bude, řekl, má, jsem -->
+    <feat name="Voice" value="Pass" upos="ADJ">353</feat><!-- Spojených, řečeno, propuštěn, Spojené, Spojeným, kvalifikovaných, nabídnuto, otevřenou, otevřená, označen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
@@ -132,18 +132,18 @@
     <dep name="advcl">191</dep>
     <dep name="advmod">658</dep>
     <dep name="advmod:emph">170</dep>
-    <dep name="amod">1825</dep>
+    <dep name="amod">1824</dep>
     <dep name="appos">124</dep>
     <dep name="aux">153</dep>
     <dep name="aux:pass">164</dep>
     <dep name="case">1857</dep>
     <dep name="cc">653</dep>
-    <dep name="ccomp">174</dep>
+    <dep name="ccomp">172</dep>
     <dep name="compound">21</dep>
     <dep name="conj">730</dep>
     <dep name="cop">331</dep>
     <dep name="csubj">57</dep>
-    <dep name="csubj:pass">10</dep>
+    <dep name="csubj:pass">12</dep>
     <dep name="det">423</dep>
     <dep name="det:numgov">43</dep>
     <dep name="det:nummod">10</dep>
@@ -152,15 +152,15 @@
     <dep name="expl:pv">240</dep>
     <dep name="fixed">73</dep>
     <dep name="flat">317</dep>
-    <dep name="iobj">13</dep>
+    <dep name="iobj">12</dep>
     <dep name="mark">406</dep>
-    <dep name="nmod">1781</dep>
+    <dep name="nmod">1782</dep>
     <dep name="nsubj">1245</dep>
     <dep name="nsubj:pass">153</dep>
     <dep name="nummod">319</dep>
     <dep name="nummod:gov">74</dep>
-    <dep name="obj">745</dep>
-    <dep name="obl">1014</dep>
+    <dep name="obj">744</dep>
+    <dep name="obl">1016</dep>
     <dep name="obl:agent">21</dep>
     <dep name="obl:arg">311</dep>
     <dep name="orphan">15</dep>
