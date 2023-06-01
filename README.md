@@ -38,6 +38,7 @@ employ ten-fold cross-validation.
 
 * 2023-11-15 v2.13
   * Removed Style=Arch from all Czech UD treebanks.
+  * Removed NumValue from all Czech UD treebanks.
 * 2022-05-15 v2.10
   * Added VerbForm=Part|Voice=Pass to long forms of passive participles.
   * Added VerbForm=Vnoun to verbal nouns.
