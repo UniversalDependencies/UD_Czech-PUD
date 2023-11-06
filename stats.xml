@@ -32,7 +32,7 @@
     <tag name="VERB">1719</tag><!-- mít, moci, stát, říci, vést, začít, muset, říkat, uvést, získat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="91">
+  <feats unique="88">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PROPN">111</feat><!-- l, n, př, USA, BBC, CNN, EU, DNA, GCA, MPS -->
     <feat name="AdpType" value="Comprep" upos="ADP">3</feat><!-- vzhledem -->
     <feat name="AdpType" value="Prep" upos="ADP">1688</feat><!-- v, na, z, s, do, o, k, pro, za, po -->
@@ -90,8 +90,6 @@
     <feat name="NumType" value="Mult" upos="ADV">8</feat><!-- třikrát, několikrát, dvakrát, jednou, mnohokrát -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV">83</feat><!-- první, druhé, poprvé, prvního, třetí, druhou, šedesátých, druhý, dvacátého, padesátých -->
     <feat name="NumType" value="Sets" upos="ADJ">1</feat><!-- jedni -->
-    <feat name="NumValue" value="1" upos="ADJ">1</feat><!-- jedni -->
-    <feat name="NumValue" value="1,2,3" upos="NUM">102</feat><!-- dva, čtyři, dvou, dvě, jedné, jeden, dvěma, jedna, jedním, tři -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">129</feat><!-- jsem, n, jsme, mě, naše, nás, nám, já, musíme, Myslím -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">17</feat><!-- musíte, jste, Hádáte, Polož, Skončíte, Tebe, You, byste, máte, vašich -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1017</feat><!-- je, jeho, by, jsou, jejich, bude, má, její, není, ho -->
@@ -109,7 +107,6 @@
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">51</feat><!-- což, jehož, jejichž, jenž, nichž, níž, jež, něhož, přičemž, čemuž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">40</feat><!-- každý, všech, všechny, vždy, každá, každého, veškeré, všechno, všichni, každé -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">441</feat><!-- se, si, své, svou, svého, svůj, svých, svým, svém, sebe -->
-    <feat name="Style" value="Arch" upos="NOUN,PROPN,VERB">7</feat><!-- Papui, léta, redukujíc, smartphone, včerejška -->
     <feat name="Style" value="Coll" upos="ADJ,NOUN,VERB">4</feat><!-- chatovacím, podezřelý, potřebujem, sken -->
     <feat name="Style" value="Expr" upos="ADJ">1</feat><!-- ztřeštěné -->
     <feat name="Style" value="Rare" upos="ADJ,NOUN,PROPN,VERB">13</feat><!-- ujal, AIDS, Australia, Capitol, Francisco, Jasona, Kenya, Kilimanjaro, datum, napjatá -->
