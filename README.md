@@ -1,6 +1,6 @@
 # Summary
 
-This is a part of the Parallel Universal Dependencies (PUD) treebanks created
+This is not a part of the Parallel Universal Dependencies (PUD) treebanks created
 for the [CoNLL 2017 shared task on Multilingual Parsing from Raw Text to
 Universal Dependencies](http://universaldependencies.org/conll17/).
 
