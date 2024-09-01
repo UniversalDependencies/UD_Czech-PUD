@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>18565</tokens><words>18610</words><fused>45</fused></test>
   </size>
-  <lemmas unique="5294" /><!-- ,, ., být, v, a, se, na, ", ten, který, rok, že, z, s, jeho -->
+  <lemmas unique="5295" /><!-- ,, ., být, v, a, se, na, ", ten, který, rok, že, z, s, jeho -->
   <forms unique="7575" /><!-- ,, ., a, v, se, na, je, že, z, s, “, „, by, do, to -->
   <fusions unique="5" /><!-- aby, kdyby, abych, abychom, abyste -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -93,8 +93,8 @@
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">129</feat><!-- jsem, n, jsme, mě, naše, nás, nám, já, musíme, Myslím -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">17</feat><!-- musíte, jste, Hádáte, Polož, Skončíte, Tebe, You, byste, máte, vašich -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1017</feat><!-- je, jeho, by, jsou, jejich, bude, má, její, není, ho -->
-    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">205</feat><!-- není, nebude, nebyly, nebyla, nebyl, nelze, nemá, nezávislost, Nevím, nebudou -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,NOUN,PROPN,VERB">10119</feat><!-- je, byl, roce, bylo, byla, roku, jsou, byly, více, bude -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">197</feat><!-- není, nebude, nebyly, nebyla, nebyl, nelze, nemá, Nevím, nebudou, nebylo -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,VERB">4553</feat><!-- je, byl, bylo, byla, jsou, byly, více, bude, řekl, má -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">265</feat><!-- jeho, jejich, své, její, n, svou, svého, svůj, svých, svým -->
     <feat name="PrepCase" value="Npr" upos="PRON">7</feat><!-- jenž, jež, jehož -->
     <feat name="PrepCase" value="Pre" upos="PRON">57</feat><!-- nich, ní, něj, ním, nimi, nichž, níž, ně, něm, něhož -->
@@ -127,7 +127,7 @@
     <dep name="acl">111</dep>
     <dep name="acl:relcl">232</dep>
     <dep name="advcl">191</dep>
-    <dep name="advmod">658</dep>
+    <dep name="advmod">654</dep>
     <dep name="advmod:emph">170</dep>
     <dep name="amod">1824</dep>
     <dep name="appos">124</dep>
@@ -138,7 +138,7 @@
     <dep name="ccomp">172</dep>
     <dep name="compound">21</dep>
     <dep name="conj">730</dep>
-    <dep name="cop">331</dep>
+    <dep name="cop">345</dep>
     <dep name="csubj">57</dep>
     <dep name="csubj:pass">12</dep>
     <dep name="det">423</dep>
@@ -157,9 +157,9 @@
     <dep name="nummod">319</dep>
     <dep name="nummod:gov">74</dep>
     <dep name="obj">744</dep>
-    <dep name="obl">1016</dep>
+    <dep name="obl">1007</dep>
     <dep name="obl:agent">21</dep>
-    <dep name="obl:arg">311</dep>
+    <dep name="obl:arg">310</dep>
     <dep name="orphan">15</dep>
     <dep name="parataxis">20</dep>
     <dep name="punct">2624</dep>

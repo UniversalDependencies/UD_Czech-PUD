@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
 * 2023-11-15 v2.13
   * Removed Style=Arch from all Czech UD treebanks.
   * Removed NumValue from all Czech UD treebanks.
