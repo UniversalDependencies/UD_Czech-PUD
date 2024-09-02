@@ -39,7 +39,7 @@
     <feat name="AdpType" value="Voc" upos="ADP">149</feat><!-- ve, ze, se, ke, skrze, za -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1292</feat><!-- kteří, byli, lidí, lidé, obyvatel, prezident, člověk, investoři, kdo, král -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">2471</feat><!-- roce, roku, byly, co, které, l, rok, případě, svůj, dolarů -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">753</feat><!-- říká, obsahuje, pomáhá, pracoval, ukazuje, existují, patří, pokračovat, tvrdí, dělat -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">1433</feat><!-- je, by, byl, bylo, byla, jsou, byly, bude, být, jsem -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">493</feat><!-- rozhodl, vrátil, objevil, opustit, vydala, získat, navštívil, rozhodli, setkal, udělat -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2258</feat><!-- se, na, pro, za, o, to, své, v, ho, svůj -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">503</feat><!-- k, si, proti, ke, tomu, mu, jí, kvůli, jim, nám -->
@@ -92,7 +92,7 @@
     <feat name="NumType" value="Sets" upos="ADJ">1</feat><!-- jedni -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">129</feat><!-- jsem, n, jsme, mě, naše, nás, nám, já, musíme, Myslím -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">17</feat><!-- musíte, jste, Hádáte, Polož, Skončíte, Tebe, You, byste, máte, vašich -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">1017</feat><!-- je, jeho, by, jsou, jejich, bude, má, její, není, ho -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">975</feat><!-- je, jeho, jsou, jejich, bude, má, její, není, ho, může -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">197</feat><!-- není, nebude, nebyly, nebyla, nebyl, nelze, nemá, Nevím, nebudou, nebylo -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,VERB">4553</feat><!-- je, byl, bylo, byla, jsou, byly, více, bude, řekl, má -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">265</feat><!-- jeho, jejich, své, její, n, svou, svého, svůj, svých, svým -->
