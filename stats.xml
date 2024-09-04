@@ -49,7 +49,7 @@
     <feat name="Case" value="Nom" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2507</feat><!-- to, který, která, které, kteří, což, mnoho, další, tento, co -->
     <feat name="Case" value="Voc" upos="NOUN">1</feat><!-- přátelé -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET">99</feat><!-- více, víc, větší, později, vyšší, dříve, méně, menší, Přesněji, Starší -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">2008</feat><!-- další, nové, stejně, jižní, severní, často, hlavní, velká, velké, vlastní -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2231</feat><!-- další, nové, stejně, jižní, severní, často, hlavní, velká, velké, vlastní -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">51</feat><!-- nejvyšší, největší, nejlépe, Nejnovější, nejdůležitější, nejhorších, nejlepších, nejvyšším, nejvíce, největším -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON,PROPN">196</feat><!-- de, USA, Danevirke, The, CNN, National, and, Aviva, Company, George -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2992</feat><!-- která, které, první, době, své, oblasti, války, společnosti, svou, této -->
