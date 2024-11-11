@@ -36,6 +36,11 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
+  * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
+  * Short forms of adjectives now have Degree=Pos (instead of no Degree).
+  * Disambiguated NumType=Mult,Sets.
 * 2023-11-15 v2.13
   * Removed Style=Arch from all Czech UD treebanks.
   * Removed NumValue from all Czech UD treebanks.
