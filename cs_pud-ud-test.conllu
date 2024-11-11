@@ -683,7 +683,7 @@
 5	objednávky	objednávka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	8:nsubj	_
 6	Královského	královský	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 7	námořnictva	námořnictvo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	5	nmod	5:nmod:gen	_
-8	zabezpečí	zabezpečit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	1:acl:že	_
+8	zabezpečí	zabezpečit	VERB	VB-P---3P-AA---	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	1:acl:že	_
 9	loďařský	loďařský	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 10	průmysl	průmysl	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	8:obj	_
 11	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	12:case	LId=v-1
