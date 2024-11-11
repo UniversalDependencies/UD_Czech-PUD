@@ -2615,7 +2615,7 @@
 23	otázky	otázka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	20	nsubj:pass	20:nsubj:pass	SpaceAfter=No
 24	“	"	PUNCT	Z:-------------	_	23	punct	23:punct	_
 25	ohledně	ohledně	ADP	RR--2----------	AdpType=Prep|Case=Gen	26	case	26:case	_
-26	toho	ten	DET	PDZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	23	det	23:det	SpaceAfter=No
+26	toho	ten	DET	PDZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	23	nmod	23:nmod	SpaceAfter=No
 27	,	,	PUNCT	Z:-------------	_	32	punct	32:punct	_
 28	jak	jak	ADV	Db-------------	PronType=Int,Rel	32	advmod	32:advmod	LId=jak-3
 29	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	32	expl:pv	32:expl:pv	LGloss=(zvr._zájmeno/částice)
