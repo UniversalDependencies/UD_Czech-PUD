@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Czech-PUD:
-commit e23d542c924b4e605d91ec01af50ebab5a7e823f
+commit a4cf13e34fa213ffeca565939445ae61988d8714
+Merge: bec3c28 140adf7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:43:36 2023 +0100
 Size: counted 18610 of 18610 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.84739814130832.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 14422 out of 18610 total words have one or more features.
+Features: 14313 out of 18610 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -25,6 +25,15 @@ Udapi: found 30 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 18610 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-PUD/cs_pud-ud-test.conllu
+[Line 763 Sent n01015036 Node 30]: [L3 Warning leaf-det] 'det' not expected to have children (30:tolik:det --> 36:Kiera:nmod)
+[Line 2133 Sent n01035004 Node 32]: [L3 Warning leaf-det] 'det' not expected to have children (32:víc:det --> 35:odpovědí:nmod)
+[Line 3730 Sent n01059054 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:víc:det --> 15:prvků:advcl)
+[Line 5350 Sent n01089007 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:víc:det --> 10:jídla:nmod)
+[Line 6810 Sent n01112014 Node 29]: [L3 Warning leaf-det] 'det' not expected to have children (29:víc:det --> 32:ryb:nmod)
+[Line 19948 Sent n04002020 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:méně:det --> 14:Madrid:nmod)
+[Line 20527 Sent n05002004 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:více:det --> 17:600 000:nmod)
+[Line 20535 Sent n05002004 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:více:det --> 25:rokem:advcl)
+Warnings: 8
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
