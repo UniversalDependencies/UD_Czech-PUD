@@ -78,9 +78,9 @@
     <feat name="NameType" value="Pro" upos="ADJ,PROPN">21</feat><!-- Endurance, Dead, El, Greco, Loving, MahaNakhon, Mate, Nectar, Select, Simple -->
     <feat name="NameType" value="Sur" upos="ADJ,PROPN">339</feat><!-- Clintonové, Trump, Trumpa, Bluntová, Mišima, Seagal, Winstone, Wright, Šen, Aldrin -->
     <feat name="Number" value="Dual" upos="ADJ,NOUN">2</feat><!-- nastraženýma, ušima -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2815</feat><!-- jsou, které, byly, let, kteří, letech, byli, dva, lidí, své -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2816</feat><!-- jsou, které, byly, let, kteří, letech, byli, dva, lidí, své -->
     <feat name="Number" value="Plur,Sing" upos="ADJ,AUX,VERB">307</feat><!-- byla, stala, uvedla, mohla, vedla, měla, nebyla, ukázala, vydala, začala -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">7316</feat><!-- je, to, byl, roce, bylo, který, roku, která, bude, řekl -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">7315</feat><!-- je, to, byl, roce, bylo, který, roku, která, bude, řekl -->
     <feat name="Number[psor]" value="Plur" upos="DET">52</feat><!-- jejich, n, naše, jejichž, naší, naším, náš, vašich -->
     <feat name="Number[psor]" value="Sing" upos="DET">87</feat><!-- jeho, její, jejím, jehož, jejích, mých, Moje, jejího, jejíž, mé -->
     <feat name="NumForm" value="Digit" upos="NUM">303</feat><!-- 1, 3, 20, 2014, 2015, 5, 10, 100, 1492, 2010 -->
@@ -141,7 +141,7 @@
     <dep name="cop">345</dep>
     <dep name="csubj">57</dep>
     <dep name="csubj:pass">12</dep>
-    <dep name="det">423</dep>
+    <dep name="det">422</dep>
     <dep name="det:numgov">43</dep>
     <dep name="det:nummod">10</dep>
     <dep name="discourse">7</dep>
@@ -151,7 +151,7 @@
     <dep name="flat">317</dep>
     <dep name="iobj">12</dep>
     <dep name="mark">406</dep>
-    <dep name="nmod">1782</dep>
+    <dep name="nmod">1783</dep>
     <dep name="nsubj">1245</dep>
     <dep name="nsubj:pass">153</dep>
     <dep name="nummod">319</dep>
