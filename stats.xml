@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>18565</tokens><words>18610</words><fused>45</fused></test>
   </size>
-  <lemmas unique="5296" /><!-- ,, ., být, v, a, se, na, ", který, rok, ten, že, z, s, jeho -->
+  <lemmas unique="5297" /><!-- ,, ., být, v, a, se, na, ", který, rok, ten, že, z, s, jeho -->
   <forms unique="7575" /><!-- ,, ., a, v, se, na, je, že, z, s, “, „, by, do, to -->
   <fusions unique="5" /><!-- aby, kdyby, abych, abychom, abyste -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -52,7 +52,7 @@
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2231</feat><!-- další, nové, stejně, jižní, severní, často, hlavní, velká, velké, vlastní -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">51</feat><!-- nejvyšší, největší, nejlépe, Nejnovější, nejdůležitější, nejhorších, nejlepších, nejvyšším, nejvíce, největším -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV">38</feat><!-- v, na, vzhledem, s, společně, spolu, ve, bez, z -->
-    <feat name="ExtPos" value="ADV" upos="ADV">12</feat><!-- více, víc, stejně -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV">13</feat><!-- více, víc, mimo, stejně -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ">6</feat><!-- a -->
     <feat name="ExtPos" value="SCONJ" upos="CCONJ">2</feat><!-- i -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,CCONJ,NOUN,PRON,PROPN">196</feat><!-- de, USA, Danevirke, The, CNN, National, and, Aviva, Company, George -->
@@ -60,8 +60,8 @@
     <feat name="Gender" value="Fem,Masc" upos="ADJ,AUX,VERB">155</feat><!-- byly, nebyly, měly, vypadaly, začaly, mohly, používaly, považovány, umožnily, vedly -->
     <feat name="Gender" value="Fem,Neut" upos="ADJ,AUX,DET,NUM,VERB">318</feat><!-- byla, dvě, stala, uvedla, mohla, vedla, měla, nebyla, ukázala, vydala -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">4255</feat><!-- byl, roce, který, roku, řekl, kteří, které, tento, byli, l -->
-    <feat name="Gender" value="Masc,Neut" upos="DET,NUM,PRON">196</feat><!-- toho, tím, tohoto, ho, n, svého, tomu, mu, její, něj -->
-    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1562</feat><!-- to, bylo, let, století, letech, území, období, toto, moře, místo -->
+    <feat name="Gender" value="Masc,Neut" upos="DET,NUM,PRON">195</feat><!-- toho, tím, tohoto, ho, n, svého, tomu, mu, její, něj -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1563</feat><!-- to, bylo, let, století, letech, území, období, toto, moře, místo -->
     <feat name="Gender[psor]" value="Fem" upos="ADJ,DET">29</feat><!-- její, jejím, jejích, Carangiina, Germaininých, jejího, jejíž -->
     <feat name="Gender[psor]" value="Masc" upos="ADJ">37</feat><!-- achaimenovské, Achaimenovskou, Achaimenovská, Alexandrově, Bergeronova, Berijovo, Blochových, Caesarovi, Cottonovy, Césarovo -->
     <feat name="Gender[psor]" value="Masc,Neut" upos="DET">55</feat><!-- jeho, jehož -->
@@ -105,10 +105,10 @@
     <feat name="PronType" value="Dem" upos="ADV,DET">366</feat><!-- to, tak, toho, tím, tento, tohoto, toto, této, tomu, tyto -->
     <feat name="PronType" value="Emp" upos="DET">10</feat><!-- sama, sám, sami, samo, samé, samého, samý -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">90</feat><!-- mnoho, několik, mnoha, něco, někteří, někdo, některé, některých, někdy, několika -->
-    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">275</feat><!-- který, které, která, jak, kteří, co, kde, kdy, proč, kterou -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">274</feat><!-- který, které, která, jak, kteří, co, kde, kdy, proč, kterou -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">26</feat><!-- nic, žádná, žádné, nikdy, žádný, nikdo, nikoho, nikým, ničím, žádném -->
     <feat name="PronType" value="Prs" upos="DET,PRON">700</feat><!-- se, jeho, si, jejich, své, její, ho, n, svou, svého -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">51</feat><!-- což, jehož, jejichž, jenž, nichž, níž, jež, něhož, přičemž, čemuž -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">52</feat><!-- což, jehož, jejichž, jenž, nichž, níž, jež, něhož, přičemž, čemuž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">40</feat><!-- každý, všech, všechny, vždy, každá, každého, veškeré, všechno, všichni, každé -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">441</feat><!-- se, si, své, svou, svého, svůj, svých, svým, svém, sebe -->
     <feat name="Style" value="Coll" upos="ADJ,NOUN,VERB">4</feat><!-- chatovacím, podezřelý, potřebujem, sken -->
@@ -131,17 +131,17 @@
     <dep name="acl">111</dep>
     <dep name="acl:relcl">232</dep>
     <dep name="advcl">191</dep>
-    <dep name="advmod">660</dep>
-    <dep name="advmod:emph">165</dep>
+    <dep name="advmod">661</dep>
+    <dep name="advmod:emph">164</dep>
     <dep name="amod">1824</dep>
     <dep name="appos">124</dep>
     <dep name="aux">153</dep>
     <dep name="aux:pass">164</dep>
-    <dep name="case">1855</dep>
+    <dep name="case">1857</dep>
     <dep name="cc">653</dep>
     <dep name="ccomp">172</dep>
     <dep name="compound">21</dep>
-    <dep name="conj">730</dep>
+    <dep name="conj">731</dep>
     <dep name="cop">345</dep>
     <dep name="csubj">57</dep>
     <dep name="csubj:pass">12</dep>
@@ -151,17 +151,17 @@
     <dep name="discourse">7</dep>
     <dep name="expl:pass">45</dep>
     <dep name="expl:pv">240</dep>
-    <dep name="fixed">72</dep>
+    <dep name="fixed">66</dep>
     <dep name="flat">317</dep>
     <dep name="iobj">12</dep>
-    <dep name="mark">408</dep>
-    <dep name="nmod">1783</dep>
+    <dep name="mark">409</dep>
+    <dep name="nmod">1782</dep>
     <dep name="nsubj">1245</dep>
     <dep name="nsubj:pass">153</dep>
     <dep name="nummod">319</dep>
     <dep name="nummod:gov">74</dep>
     <dep name="obj">744</dep>
-    <dep name="obl">1007</dep>
+    <dep name="obl">1010</dep>
     <dep name="obl:agent">21</dep>
     <dep name="obl:arg">310</dep>
     <dep name="orphan">15</dep>

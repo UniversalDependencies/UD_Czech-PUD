@@ -3789,9 +3789,9 @@
 8	první	první	ADJ	CrFS2----------	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	9	amod	9:amod	_
 9	dámy	dáma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod:gen	_
 10	stává	stávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	17:advcl	LId=stávat-2|LGloss=(něco_se_přihodilo)|LDeriv=st-2
-11	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Int,Rel	14	nmod	14:nmod:ins	LId=co-1
-12	dál	daleko	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	11	fixed	11:fixed	LId=daleko-1
-13	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	11	fixed	11:fixed	_
+11	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Rel	12	obl	12:obl	LId=co-1
+12	dál	daleko	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	13	advmod	13:advmod	LId=daleko-1
+13	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	14	obl	14:obl	_
 14	toxičtější	toxický	ADJ	AANS1----2A----	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing|Polarity=Pos	10	xcomp	10:xcomp	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 16	Karel	Karel	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing	17	nsubj	17:nsubj|18:nsubj	_
@@ -5505,7 +5505,7 @@
 9	předními	přední	ADJ	AAMP7----1A----	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	10:amod	_
 10	ochranáři	ochranář	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	nmod	6:nmod:s:ins	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
-12	mimo	mimo	ADP	RR--4----------	AdpType=Prep|Case=Acc	17	advmod:emph	17:advmod:emph	LId=mimo-1
+12	mimo	mimo	ADP	RR--4----------	AdpType=Prep|Case=Acc|ExtPos=ADV	17	advmod	17:advmod	LId=mimo-1
 13	jiné	jiný	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	fixed	12:fixed	_
 14	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	17	case	17:case	LId=s-1
 15	autorem	autor	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	17:nmod:ins	_
@@ -5757,10 +5757,10 @@
 3	neříkám	říkat	VERB	VB-S---1P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	jen	jen	PART	TT-------------	_	5	advmod:emph	5:advmod:emph	LId=jen-1
 5	tak	tak	ADV	Db-------------	PronType=Dem	3	advmod	3:advmod	LId=tak-3
-6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	advmod	3:advmod	LId=pro-1
-7	nic	nic	PRON	PW--4----------	Case=Acc|PronType=Neg	6	fixed	6:fixed	_
-8	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	fixed	6:fixed	_
-9	nic	nic	PRON	PW--4----------	Case=Acc|PronType=Neg	6	fixed	6:fixed	SpaceAfter=No
+6	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	LId=pro-1
+7	nic	nic	PRON	PY--4----------	Case=Acc|PronType=Neg	3	obl	3:obl	_
+8	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	_
+9	nic	nic	PRON	PY--4----------	Case=Acc|PronType=Neg	7	conj	7:conj	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = n01095019
@@ -15807,8 +15807,8 @@
 # text = Dříve než Jokowi převzal úřad, usiloval o to, aby dosluhující prezident Yudhoyono převzal odpovědnost za rozhodnutí zrušit dotace, a tím dále zvyšovat ceny paliv.
 # orig_file_sentence test007#58
 # text_en = Prior to taking office Jokowi sought for outgoing President Yudhoyono to take responsibility for the decision to further increase fuel prices by further removing subsidies.
-1	Dříve	brzy	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	_
-2	než	než	SCONJ	J,-------------	_	1	fixed	1:fixed	LId=než-2
+1	Dříve	dříve	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	_
+2	než	než	SCONJ	J,-------------	_	4	mark	4:mark	LId=než-2
 3	Jokowi	Jokowi	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
 4	převzal	převzít	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	7:advcl	LGloss=(př._od_někoho_věc,_zodpovědnost...)
 5	úřad	úřad	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	SpaceAfter=No
