@@ -760,7 +760,7 @@
 33	pojmenováno	pojmenovaný	ADJ	VsNS---XX-AP---	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	23	parataxis	23:parataxis	LDeriv=pojmenovat
 34	Keira	Keira	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	33	xcomp	33:xcomp	_
 35	než	než	SCONJ	J,-------------	_	36	case	36:case	LId=než-2
-36	Kiera	Kiera	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	30	nmod	30:nmod:než	SpaceAfter=No
+36	Kiera	Kiera	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	30	obl	30:obl:než	SpaceAfter=No
 37	.	.	PUNCT	Z:-------------	_	23	punct	23:punct	_
 
 # newdoc id = n01016
@@ -2130,7 +2130,7 @@
 32	víc	hodně	DET	Dg-------2A---1	Degree=Cmp|Polarity=Pos	33	det:numgov	33:det:numgov	LId=hodně-2
 33	otázek	otázka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	31	obj	31:obj	_
 34	než	než	SCONJ	J,-------------	_	35	case	35:case	LId=než-2
-35	odpovědí	odpověď	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	32	nmod	32:nmod:než	SpaceAfter=No
+35	odpovědí	odpověď	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	32	obl	32:obl:než	SpaceAfter=No
 36	.	.	PUNCT	Z:-------------	_	10	punct	10:punct	_
 
 # sent_id = n01035013
@@ -3727,7 +3727,7 @@
 12	rozdílů	rozdíl	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	10:nsubj	_
 13	než	než	SCONJ	J,-------------	_	15	mark	15:mark	LId=než-2
 14	společných	společný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	15	amod	15:amod	_
-15	prvků	prvek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	advcl	11:advcl:než	SpaceAfter=No
+15	prvků	prvek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	11:obl:než	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 17	avšak	avšak	CCONJ	J^-------------	_	19	cc	19:cc	_
 18	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	19:nsubj	_
@@ -5347,7 +5347,7 @@
 7	víc	hodně	DET	Dg-------2A---1	Degree=Cmp|Polarity=Pos	8	det:numgov	8:det:numgov	LId=hodně-2
 8	oblečení	oblečení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun	5	nsubj	6:nsubj	LDeriv=obléci
 9	než	než	SCONJ	J,-------------	_	10	case	10:case	LId=než-2
-10	jídla	jídlo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod:než	SpaceAfter=No
+10	jídla	jídlo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	7	obl	7:obl:než	SpaceAfter=No
 11	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = n01089033
@@ -6807,7 +6807,7 @@
 29	víc	hodně	DET	Dg-------2A---1	Degree=Cmp|Polarity=Pos	30	det:numgov	30:det:numgov	LId=hodně-2
 30	plastů	plast	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nsubj	28:nsubj	_
 31	než	než	SCONJ	J,-------------	_	32	case	32:case	LId=než-2
-32	ryb	ryba	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	29	nmod	29:nmod:než	SpaceAfter=No
+32	ryb	ryba	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	29	obl	29:obl:než	SpaceAfter=No
 33	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
 # newdoc id = n01113
@@ -19945,7 +19945,7 @@
 11	podzemní	podzemní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	amod	12:amod	_
 12	dráhy	dráha	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod:gen	_
 13	než	než	SCONJ	J,-------------	_	14	case	14:case	LId=než-2
-14	Madrid	Madrid	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing	9	nmod	9:nmod:než	SpaceAfter=No
+14	Madrid	Madrid	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing	9	obl	9:obl:než	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = n04002027
@@ -20524,7 +20524,7 @@
 14	zaměstnaných	zaměstnaný	ADJ	AAMP2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	conj	0:root|8:conj	LDeriv=zaměstnat|LId=zaměstnaný-1|LGloss=(všeob._význam:_činnost,_zaměstnání)
 15	již	již	ADV	Db-------------	_	17	advmod:emph	17:advmod:emph	LId=již-1
 16	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	17	case	17:case	LId=o-1
-17	600 000	600 000	NUM	C=-------------	NumForm=Digit|NumType=Card	18	nmod	18:nmod:o:acc	_
+17	600 000	600 000	NUM	C=-------------	NumForm=Digit|NumType=Card	18	obl	18:obl:o:acc	_
 18	více	hodně	DET	Dg-------2A----	Degree=Cmp|Polarity=Pos	19	det:numgov	19:det:numgov	LId=hodně-2
 19	lidí	člověk	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	14:nsubj	SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	25	punct	23:punct	_
@@ -20532,7 +20532,7 @@
 22	jich	on	PRON	PPXP2--3-------	Case=Gen|Number=Plur|Person=3|PronType=Prs	25	nsubj	23:nsubj	LId=on-1
 23	bylo	být	AUX	VpNS---XR-AA---	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	25	cop	18:advcl:než	_
 24	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	25	case	25:case	LId=před-1
-25	rokem	rok	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	advcl	23:obl:před:ins	SpaceAfter=No
+25	rokem	rok	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	acl	19:acl:než	SpaceAfter=No
 26	.	.	PUNCT	Z:-------------	_	8	punct	8:punct	_
 
 # sent_id = n05002015
