@@ -1,6 +1,6 @@
 # newdoc id = n01001
 # sent_id = n01001011
-# text = „V tomto procesu předávání moci se ve Spojených Státech mnoho děje poprvé, což se týká především digitálních prostředků, ovšem poklidnost předávání moci je tradiční,“ napsala Obamova zvláštní asistentka Kori Schulman v pondělí ve svém blogu.
+# text = „V tomto procesu předávání moci se ve Spojených státech mnoho děje poprvé, což se týká především digitálních prostředků, ovšem poklidnost předávání moci je tradiční,“ napsala Obamova zvláštní asistentka Kori Schulman v pondělí ve svém blogu.
 # orig_file_sentence test001#1
 # text_en = “While much of the digital transition is unprecedented in the United States, the peaceful transition of power is not,” Obama special assistant Kori Schulman wrote in a blog post Monday.
 1	„	"	PUNCT	Z:-------------	_	12	punct	12:punct	SpaceAfter=No
@@ -12,7 +12,7 @@
 7	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	expl:pv	12:expl:pv	LGloss=(zvr._zájmeno/částice)
 8	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	10	case	10:case	LId=v-1
 9	Spojených	spojený	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	amod	10:amod	LDeriv=spojit
-10	Státech	stát	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	12:obl:v:loc	LId=stát-1|LGloss=(státní_útvar)
+10	státech	stát	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	12:obl:v:loc	LId=stát-1|LGloss=(státní_útvar)
 11	mnoho	mnoho	DET	Ca--1----------	Case=Nom|NumType=Card|PronType=Ind	12	nsubj	12:nsubj	LId=mnoho-1
 12	děje	dít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	30	ccomp	30:ccomp	LId=dít-1|LGloss=(dít_se)
 13	poprvé	poprvé	ADV	Cv-------------	NumType=Ord	12	advmod	12:advmod	SpaceAfter=No
