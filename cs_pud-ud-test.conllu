@@ -19313,25 +19313,25 @@
 15	.	.	PUNCT	Z:-------------	_	14	punct	14:punct	_
 
 # sent_id = n03001019
-# text = Pokud by byl jeho demokratický oponent zvolen, ujistil nás, že by byla „vyšetřována po celá léta“.
+# text = Pokud by byla jeho demokratická oponentka zvolena, ujistil nás, že by byla „vyšetřována po celá léta“.
 # orig_file_sentence test009#1
 # text_en = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
 1	Pokud	pokud	SCONJ	J,-------------	_	7	mark	7:mark	_
 2	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	7	aux	7:aux	_
-3	byl	být	AUX	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	aux:pass	7:aux:pass	_
+3	byla	být	AUX	VpFS---XR-AA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	aux:pass	7:aux:pass	_
 4	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	6:det	LGloss=(přivlast.)
-5	demokratický	demokratický	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
-6	oponent	oponent	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	7:nsubj:pass	_
-7	zvolen	zvolený	ADJ	VsYS---XX-AP---	Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	16	advcl	16:advcl:pokud	SpaceAfter=No|LDeriv=zvolit
+5	demokratická	demokratický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	_
+6	oponentka	oponentka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	7:nsubj:pass	_
+7	zvolena	zvolený	ADJ	VsFS---XX-AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	16	advcl	16:advcl:pokud	SpaceAfter=No|LDeriv=zvolit
 8	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 9	ujistil	ujistit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 10	nás	já	PRON	PP-P4--1-------	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	iobj	9:iobj	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 12	že	že	SCONJ	J,-------------	_	16	mark	16:mark	LId=že-1
 13	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	16	aux	16:aux	_
-14	byla	být	AUX	VpQW---XR-AA---	Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	aux:pass	16:aux:pass	_
+14	byla	být	AUX	VpFS---XR-AA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	aux:pass	16:aux:pass	_
 15	„	"	PUNCT	Z:-------------	_	16	punct	16:punct	SpaceAfter=No
-16	vyšetřována	vyšetřovaný	ADJ	VsQW---XX-AP---	Aspect=Imp|Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	9	ccomp	9:ccomp	LDeriv=vyšetřovat
+16	vyšetřována	vyšetřovaný	ADJ	VsFS---XX-AP---	Aspect=Imp|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	9	ccomp	9:ccomp	LDeriv=vyšetřovat
 17	po	po	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	LId=po-1
 18	celá	celý	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	19	amod	19:amod	_
 19	léta	rok	NOUN	NNNP4-----A---2	Case=Acc|Gender=Neut|Number=Plur	16	obl	16:obl:po:acc	SpaceAfter=No
