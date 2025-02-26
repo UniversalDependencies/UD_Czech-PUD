@@ -23850,7 +23850,7 @@
 
 # newdoc id = w05009
 # sent_id = w05009044
-# text = V roce 1976 se setkal s přítelem Kiki Deeem, který pracoval v jeho hudebním vydavatelství „The Record Company“, aby nahrál, co by pro něho mohlo být dalším výrazným úspěchem: skladbu „Don't Go Breaking My Heart“.
+# text = V roce 1976 se setkal s přítelem Kiki Deeem, který pracoval v jeho hudebním vydavatelství „The Record Company“, aby nahrál, co pro něj mělo být dalším výrazným úspěchem: skladbu „Don't Go Breaking My Heart“.
 # orig_file_sentence test010#95
 # text_en = In 1976 he met with a friend who worked with his record label The Rocket Record Company, Kiki Dee, to record what would be another remarkable success for him: "Don't Go Breaking My Heart".
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	2:case	LId=v-1
@@ -23879,28 +23879,27 @@
 23	aby	aby	SCONJ	J,-------------	_	25	mark	25:mark	_
 24	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	25	aux	25:aux	_
 25	nahrál	nahrát	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	5:advcl:aby	SpaceAfter=No
-26	,	,	PUNCT	Z:-------------	_	31	punct	31:punct	_
-27	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	31	nsubj	31:nsubj|35:nsubj	LId=co-1
-28	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	31	aux	31:aux	_
-29	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	30	case	30:case	LId=pro-1
-30	něho	on	PRON	P5ZS4--3------1	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	35	obl	35:obl:pro:acc	LId=on-1
-31	mohlo	moci	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	25	ccomp	25:ccomp	LGloss=(mít_možnost_[něco_dělat])
-32	být	být	AUX	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	35	cop	35:cop	_
-33	dalším	další	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	35	amod	35:amod	_
-34	výrazným	výrazný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	35	amod	35:amod	_
-35	úspěchem	úspěch	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	xcomp	31:xcomp	SpaceAfter=No
-36	:	:	PUNCT	Z:-------------	_	37	punct	37:punct	_
-37	skladbu	skladba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	31	appos	31:appos	_
-38	„	"	PUNCT	Z:-------------	_	39	punct	39:punct	SpaceAfter=No
-39	Don	Don	NOUN	NNXXX-----A----	_	37	nmod	37:nmod	SpaceAfter=No
-40	'	'	PUNCT	Z:-------------	_	39	punct	39:punct	SpaceAfter=No
-41	t	t	NOUN	NNXXX-----A----	_	39	flat	39:flat	_
-42	Go	go	NOUN	NNNXX-----A----	Gender=Neut	39	flat	39:flat	LGloss=(stolní_desková_hra)
-43	Breaking	Breaking	NOUN	NNXXX-----A----	Foreign=Yes	39	flat	39:flat	_
-44	My	My	NOUN	NNXXX-----A----	_	39	flat	39:flat	_
-45	Heart	Heart	NOUN	NNXXX-----A----	_	39	flat	39:flat	SpaceAfter=No
-46	“	"	PUNCT	Z:-------------	_	39	punct	39:punct	SpaceAfter=No
-47	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
+26	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
+27	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	30	nsubj	30:nsubj|34:nsubj	LId=co-1
+28	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	29	case	29:case	LId=pro-1
+29	něj	on	PRON	P5ZS4--3-------	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	34	obl	34:obl:pro:acc	LId=on-1
+30	mělo	mít	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	25	ccomp	25:ccomp	LGloss=(mít_možnost_[něco_dělat])
+31	být	být	AUX	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	34	cop	34:cop	_
+32	dalším	další	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	34	amod	34:amod	_
+33	výrazným	výrazný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	34	amod	34:amod	_
+34	úspěchem	úspěch	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	xcomp	30:xcomp	SpaceAfter=No
+35	:	:	PUNCT	Z:-------------	_	36	punct	36:punct	_
+36	skladbu	skladba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	27	appos	27:appos	_
+37	„	"	PUNCT	Z:-------------	_	38	punct	38:punct	SpaceAfter=No
+38	Don	Don	NOUN	NNXXX-----A----	_	36	nmod	36:nmod	SpaceAfter=No
+39	'	'	PUNCT	Z:-------------	_	38	punct	38:punct	SpaceAfter=No
+40	t	t	NOUN	NNXXX-----A----	_	38	flat	38:flat	_
+41	Go	go	NOUN	NNNXX-----A----	Gender=Neut	38	flat	38:flat	LGloss=(stolní_desková_hra)
+42	Breaking	Breaking	NOUN	NNXXX-----A----	Foreign=Yes	38	flat	38:flat	_
+43	My	My	NOUN	NNXXX-----A----	_	38	flat	38:flat	_
+44	Heart	Heart	NOUN	NNXXX-----A----	_	38	flat	38:flat	SpaceAfter=No
+45	“	"	PUNCT	Z:-------------	_	38	punct	38:punct	SpaceAfter=No
+46	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # newdoc id = w05010
 # sent_id = w05010023
