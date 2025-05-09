@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2025-05-15 v2.16
+  * Fixed multiword expressions need the ExtPos feature.
 * 2024-11-15 v2.15
   * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
   * Conditional auxiliary "by" does not have Person (besides 3, it could be also 2).
