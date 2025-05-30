@@ -17854,7 +17854,7 @@
 8	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc|ExtPos=ADP	12	case	12:case	LId=v-1
 9	světle	světlo	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	8	fixed	8:fixed	LId=světlo-1
 10	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	12:det	LId=svůj-1|LGloss=(přivlast.)
-11	budoucího	budoucí	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	12	amod	12:amod	_
+11	budoucího	budoucí	ADJ	AAIS2----1A----	Animacy=Inan|Aspect=Imp|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Act	12	amod	12:amod	_
 12	cíle	cíl	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	7:obl:ve_světle:gen	SpaceAfter=No
 13	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 

@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Changed annotation of "budoucí": VerbForm=Part, Voice=Act, Tense=Fut.
 * 2025-05-15 v2.16
   * Fixed multiword expressions need the ExtPos feature.
 * 2024-11-15 v2.15
