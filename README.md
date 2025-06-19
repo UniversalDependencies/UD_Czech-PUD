@@ -7,13 +7,12 @@ Universal Dependencies](http://universaldependencies.org/conll17/).
 
 # Introduction
 
-There are
-1000 sentences in each language, always in the same order. (The sentence
-alignment is 1-1 but occasionally a sentence-level segment actually consists
-of two real sentences.) The sentences are taken from the news domain (sentence
-id starts in ‘n’) and from Wikipedia (sentence id starts with ‘w’). There are
-usually only a few sentences from each document, selected randomly, not
-necessarily adjacent. The digits on the second and third position in the
+There are 1000 sentences in each language, always in the same order. (The
+sentence alignment is 1-1 but occasionally a sentence-level segment actually
+consists of two real sentences.) The sentences are taken from the news domain
+(sentence id starts in ‘n’) and from Wikipedia (sentence id starts with ‘w’).
+There are usually only a few sentences from each document, selected randomly,
+not necessarily adjacent. The digits on the second and third position in the
 sentence ids encode the original language of the sentence. The first 750
 sentences are originally English (01). The remaining 250 sentences are
 originally German (02), French (03), Italian (04) or Spanish (05) and they
