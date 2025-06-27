@@ -18,8 +18,8 @@ sentences are originally English (01). The remaining 250 sentences are
 originally German (02), French (03), Italian (04) or Spanish (05) and they
 were translated to other languages via English. Translation into German,
 French, Italian, Spanish, Arabic, Hindi, Chinese, Indonesian, Japanese, Korean,
-Portuguese, Russian, Thai and Turkish has been provided by DFKI and
-performed (except for German) by professional translators. Then the data has
+Portuguese, Russian, Thai and Turkish has been provided by DFKI and performed
+(except for German) by professional translators. Then the data has
 been annotated morphologically and syntactically by Google according to Google
 universal annotation guidelines; finally, it has been converted by members of
 the UD community to UD v2 guidelines.
