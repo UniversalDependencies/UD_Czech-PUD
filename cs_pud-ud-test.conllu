@@ -13600,7 +13600,7 @@
 11	Vládcových	vládcův	ADJ	AUFP2M---------	Case=Gen|Gender=Fem|Gender[psor]=Masc|Number=Plur|Poss=Yes	12	amod	12:amod	LDeriv=vládce
 12	zdí	zeď	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	10	nmod	10:nmod:gen	_
 13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	LId=v-1
-14	oblasti	oblast	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	10	obl	10:obl:v:loc	_
+14	oblasti	oblast	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	10	nmod	10:nmod:v:loc	_
 15	Východní	východní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	16:amod	_
 16	Delty	delta	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	14	nmod	14:nmod:gen	SpaceAfter=No
 17	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -22389,7 +22389,7 @@
 17	.	.	PUNCT	Z:-------------	_	16	punct	16:punct	_
 18	n	můj	DET	PSZS7-P1------8	Abbr=Yes|Case=Ins|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	20	det	20:det	SpaceAfter=No|LGloss=(přivlast.,jen_př._n._l.,_před_naším_letopočtem,_našeho_letopočtu)
 19	.	.	PUNCT	Z:-------------	_	18	punct	18:punct	_
-20	l	letopočet	NOUN	NNIS7-----A---8	Abbr=Yes|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	15:obl:před:ins	SpaceAfter=No|LGloss=(jen_př._n._l.,_před_naším_letopočtem)
+20	l	letopočet	NOUN	NNIS7-----A---8	Abbr=Yes|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	15:nmod:před:ins	SpaceAfter=No|LGloss=(jen_př._n._l.,_před_naším_letopočtem)
 21	.	.	PUNCT	Z:-------------	_	10	punct	10:punct	_
 
 # sent_id = w02008038
@@ -22418,7 +22418,7 @@
 19	.	.	PUNCT	Z:-------------	_	18	punct	18:punct	_
 20	n	můj	DET	PSZS7-P1------8	Abbr=Yes|Case=Ins|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	22	det	22:det	SpaceAfter=No|LGloss=(přivlast.,jen_př._n._l.,_před_naším_letopočtem,_našeho_letopočtu)
 21	.	.	PUNCT	Z:-------------	_	20	punct	20:punct	_
-22	l	letopočet	NOUN	NNIS7-----A---8	Abbr=Yes|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	16:obl:před:ins	SpaceAfter=No|LGloss=(jen_př._n._l.,_před_naším_letopočtem)
+22	l	letopočet	NOUN	NNIS7-----A---8	Abbr=Yes|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	nmod	16:nmod:před:ins	SpaceAfter=No|LGloss=(jen_př._n._l.,_před_naším_letopočtem)
 23	.	.	PUNCT	Z:-------------	_	22	punct	22:punct	_
 
 # sent_id = w02008055
@@ -23269,7 +23269,7 @@
 12	.	.	PUNCT	Z:-------------	_	11	punct	11:punct	_
 13	n	můj	DET	PSZS7-P1------8	Abbr=Yes|Case=Ins|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det	15:det	SpaceAfter=No|LGloss=(přivlast.,jen_př._n._l.,_před_naším_letopočtem,_našeho_letopočtu)
 14	.	.	PUNCT	Z:-------------	_	13	punct	13:punct	SpaceAfter=No
-15	l	letopočet	NOUN	NNIS7-----A---8	Abbr=Yes|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	10:obl:před:ins	SpaceAfter=No|LGloss=(jen_př._n._l.,_před_naším_letopočtem)
+15	l	letopočet	NOUN	NNIS7-----A---8	Abbr=Yes|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	10:nmod:před:ins	SpaceAfter=No|LGloss=(jen_př._n._l.,_před_naším_letopočtem)
 16	.	.	PUNCT	Z:-------------	_	15	punct	15:punct	_
 
 # sent_id = w03005015
