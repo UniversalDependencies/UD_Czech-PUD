@@ -39,7 +39,7 @@
     <feat name="AdpType" value="Voc" upos="ADP">149</feat><!-- ve, ze, se, ke, skrze, za -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1290</feat><!-- kteří, byli, lidí, lidé, obyvatel, prezident, člověk, investoři, kdo, král -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">2471</feat><!-- roce, roku, byly, co, které, l, rok, případě, svůj, dolarů -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">1432</feat><!-- je, by, byl, bylo, byla, jsou, byly, bude, být, jsem -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">1433</feat><!-- je, by, byl, bylo, byla, jsou, byly, bude, být, jsem -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">493</feat><!-- rozhodl, vrátil, objevil, opustit, vydala, získat, navštívil, rozhodli, setkal, udělat -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2256</feat><!-- se, na, pro, za, o, své, to, v, ho, svůj -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">503</feat><!-- k, si, proti, ke, tomu, mu, jí, kvůli, jim, nám -->
@@ -104,7 +104,7 @@
     <feat name="PrepCase" value="Pre" upos="PRON">57</feat><!-- nich, ní, něj, ním, nimi, nichž, níž, ně, něm, něhož -->
     <feat name="PronType" value="Dem" upos="ADV,DET">366</feat><!-- to, tak, toho, tím, tento, tohoto, toto, této, tomu, tyto -->
     <feat name="PronType" value="Emp" upos="DET">10</feat><!-- sama, sám, sami, samo, samé, samého, samý -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">90</feat><!-- mnoho, několik, mnoha, něco, někteří, někdo, některé, některých, někdy, několika -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">104</feat><!-- mnoho, několik, více, mnoha, něco, někteří, někdo, některé, některých, víc -->
     <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">274</feat><!-- který, které, která, jak, kteří, co, kde, kdy, proč, kterou -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">26</feat><!-- nic, žádná, žádné, nikdy, žádný, nikdo, nikoho, nikým, ničím, žádném -->
     <feat name="PronType" value="Prs" upos="DET,PRON">700</feat><!-- se, jeho, si, jejich, své, její, ho, n, svou, svého -->
@@ -114,16 +114,16 @@
     <feat name="Style" value="Coll" upos="ADJ,NOUN,VERB">4</feat><!-- chatovacím, podezřelý, potřebujem, sken -->
     <feat name="Style" value="Expr" upos="ADJ">1</feat><!-- ztřeštěné -->
     <feat name="Style" value="Rare" upos="ADJ,NOUN,PROPN,VERB">13</feat><!-- ujal, AIDS, Australia, Capitol, Francisco, Jasona, Kenya, Kilimanjaro, datum, napjatá -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">50</feat><!-- bude, budou, nebude, budeme, budu, nebudou, půjde, nebudu, neporoste, povede -->
+    <feat name="Tense" value="Fut" upos="ADJ,AUX,VERB">51</feat><!-- bude, budou, nebude, budeme, budu, nebudou, půjde, budoucího, nebudu, neporoste -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1138</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">863</feat><!-- je, jsou, má, jsem, není, může, říká, mohou, jsme, mají -->
     <feat name="Variant" value="Short" upos="ADJ,DET,PRON">606</feat><!-- se, si, ho, mu, mě, schopen, řečeno, propuštěn, rád, sama -->
     <feat name="VerbForm" value="Conv" upos="VERB">3</feat><!-- Počínaje, nedbajíce, redukujíc -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">952</feat><!-- je, by, jsou, bude, má, jsem, není, může, říká, mohou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">309</feat><!-- být, mít, vidět, získat, najít, opustit, pokračovat, stát, vést, dělat -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">1553</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,NOUN,VERB">1554</feat><!-- byl, bylo, byla, byly, řekl, byli, mohl, měl, stal, stala -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">251</feat><!-- omezení, rozhodnutí, chování, jednání, oddělení, opatření, umění, hlasování, oblečení, pochopení -->
-    <feat name="Voice" value="Act" upos="ADJ,AUX,NOUN,VERB">2052</feat><!-- je, byl, bylo, byla, jsou, byly, bude, řekl, má, jsem -->
+    <feat name="Voice" value="Act" upos="ADJ,AUX,NOUN,VERB">2053</feat><!-- je, byl, bylo, byla, jsou, byly, bude, řekl, má, jsem -->
     <feat name="Voice" value="Pass" upos="ADJ">353</feat><!-- Spojených, řečeno, propuštěn, Spojené, Spojeným, kvalifikovaných, nabídnuto, otevřenou, otevřená, označen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -156,13 +156,13 @@
     <dep name="flat">318</dep>
     <dep name="iobj">12</dep>
     <dep name="mark">409</dep>
-    <dep name="nmod">1776</dep>
+    <dep name="nmod">1780</dep>
     <dep name="nsubj">1244</dep>
     <dep name="nsubj:pass">152</dep>
     <dep name="nummod">319</dep>
     <dep name="nummod:gov">74</dep>
     <dep name="obj">744</dep>
-    <dep name="obl">1017</dep>
+    <dep name="obl">1013</dep>
     <dep name="obl:agent">21</dep>
     <dep name="obl:arg">310</dep>
     <dep name="orphan">15</dep>
