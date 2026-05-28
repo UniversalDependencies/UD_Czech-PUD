@@ -1520,7 +1520,7 @@
 9	jak	jak	ADV	Db-------------	PronType=Int,Rel	10	cc	10:cc	LId=jak-3
 10	žáků	žák	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	appos	6:appos	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
-12	tak	tak	CCONJ	J^-------------	_	14	cc	14:cc	LId=tak-2
+12	tak	tak	ADV	J^-------------	PronType=Dem	14	cc	14:cc	LId=tak-2
 13	i	i	CCONJ	J^-------------	_	14	cc	14:cc	LId=i-1
 14	učitelů	učitel	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	conj	6:appos|10:conj	SpaceAfter=No
 15	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -7601,7 +7601,7 @@
 14	stejné	stejný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	conj	3:conj|27:ccomp	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 16	a	a	CCONJ	J^-------------	_	21	cc	21:cc	LId=a-1
-17	tak	tak	CCONJ	J^-------------	_	21	cc	21:cc	LId=tak-3
+17	tak	tak	ADV	J^-------------	PronType=Dem	21	cc	21:cc	LId=tak-3
 18	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
 19	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	20	case	20:case	LId=k-1
 20	tomu	ten	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	21	obl:arg	21:obl:arg:k:dat	_
@@ -14205,7 +14205,7 @@
 15	střední	střední	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	16	amod	16:amod	_
 16	školy	škola	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	13	nmod	13:nmod:acc	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
-18	tak	tak	CCONJ	J^-------------	_	19	cc	19:cc	LId=tak-2
+18	tak	tak	ADV	J^-------------	PronType=Dem	19	cc	19:cc	LId=tak-2
 19	příjem	příjem	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	8:nsubj|11:conj	_
 20	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	21	case	21:case	LId=na-1
 21	hlavu	hlava	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	19	nmod	19:nmod:na:acc	_
@@ -15552,7 +15552,7 @@
 2	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	3	case	3:case	LId=mezi-1
 3	muži	muž	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	obl	8:obl:mezi:ins	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-5	tak	tak	CCONJ	J^-------------	_	7	cc	7:cc	LId=tak-2
+5	tak	tak	ADV	J^-------------	PronType=Dem	7	cc	7:cc	LId=tak-2
 6	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	7	case	7:case	LId=mezi-1
 7	ženami	žena	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	3	conj	3:conj|8:obl:mezi:ins	_
 8	najdeme	najít	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -18914,7 +18914,7 @@
 23	spojence	spojenec	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obl	10:obl:mezi:acc	SpaceAfter=No
 24	,	,	PUNCT	Z:-------------	_	25	punct	25:punct	_
 25	redukujíc	redukovat	VERB	VmHS------A---4	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	10:advcl	_
-26	tak	tak	CCONJ	J^-------------	_	25	cc	25:cc	LId=tak-2
+26	tak	tak	ADV	J^-------------	PronType=Dem	25	cc	25:cc	LId=tak-2
 27	území	území	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	25	obj	25:obj	_
 28	Albánie	Albánie	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	27	nmod	27:nmod:gen	_
 29	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	32	case	32:case	LId=na-1
