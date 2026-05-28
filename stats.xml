@@ -17,9 +17,9 @@
   <tags unique="15">
     <tag name="ADJ">2269</tag><!-- velký, nový, další, první, vysoký, druhý, poslední, americký, jiný, jižní -->
     <tag name="ADP">1842</tag><!-- v, na, z, s, do, k, o, pro, za, po -->
-    <tag name="ADV">838</tag><!-- tak, také, jak, poté, už, kde, hodně, pouze, stejně, ještě -->
+    <tag name="ADV">840</tag><!-- tak, jak, také, poté, už, kde, hodně, pouze, stejně, ještě -->
     <tag name="AUX">682</tag><!-- být, bývat -->
-    <tag name="CCONJ">656</tag><!-- a, ale, i, nebo, však, avšak, nicméně, až, ani, tedy -->
+    <tag name="CCONJ">654</tag><!-- a, ale, i, nebo, však, avšak, nicméně, až, ani, tedy -->
     <tag name="DET">841</tag><!-- který, ten, jeho, tento, svůj, mnoho, můj, každý, všechen, některý -->
     <tag name="NOUN">4482</tag><!-- rok, člověk, doba, město, stát, oblast, válka, místo, země, část -->
     <tag name="NUM">459</tag><!-- jeden, dva, oba, tři, čtyři, deset, 1, 3, šest, 20 -->
@@ -105,7 +105,7 @@
     <feat name="PronType" value="Dem" upos="ADV,DET">371</feat><!-- to, tak, toho, tím, tento, tohoto, toto, této, tomu, tyto -->
     <feat name="PronType" value="Emp" upos="DET">10</feat><!-- sama, sám, sami, samo, samé, samého, samý -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">104</feat><!-- mnoho, několik, více, mnoha, něco, někteří, někdo, některé, některých, víc -->
-    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">274</feat><!-- který, které, která, jak, kteří, co, kde, kdy, proč, kterou -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">277</feat><!-- který, které, která, jak, kteří, co, kde, kdy, proč, kterou -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">26</feat><!-- nic, žádná, žádné, nikdy, žádný, nikdo, nikoho, nikým, ničím, žádném -->
     <feat name="PronType" value="Prs" upos="DET,PRON">700</feat><!-- se, jeho, si, jejich, své, její, ho, n, svou, svého -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">52</feat><!-- což, jehož, jejichž, jenž, nichž, níž, jež, něhož, přičemž, čemuž -->
