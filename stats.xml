@@ -39,9 +39,9 @@
     <feat name="AdpType" value="Voc" upos="ADP">149</feat><!-- ve, ze, se, ke, skrze, za -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1290</feat><!-- kteří, byli, lidí, lidé, obyvatel, prezident, člověk, investoři, kdo, král -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">2471</feat><!-- roce, roku, byly, co, které, l, rok, případě, svůj, dolarů -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">1735</feat><!-- je, by, byl, bylo, byla, jsou, byly, bude, má, být -->
-    <feat name="Aspect" value="Imp,Perf" upos="VERB">24</feat><!-- informoval, absorbují, charakterizovala, degradovalo, eliminuje, emigrovali, informovaly, inscenovat, integrovala, interpretovala -->
-    <feat name="Aspect" value="Perf" upos="ADJ,VERB">818</feat><!-- řekl, stal, stala, uvedla, rozhodl, uvedl, vrátil, začal, dostal, ukázala -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,NOUN,VERB">1763</feat><!-- je, by, byl, bylo, byla, jsou, byly, bude, má, být -->
+    <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">42</feat><!-- informoval, kvalifikovaných, Konzultované, absorbují, charakterizovala, definována, degradovalo, eliminuje, emigrovali, informovaly -->
+    <feat name="Aspect" value="Perf" upos="ADJ,VERB">975</feat><!-- řekl, stal, stala, uvedla, rozhodl, uvedl, vrátil, začal, Spojených, dostal -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2256</feat><!-- se, na, pro, za, o, své, to, v, ho, svůj -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">503</feat><!-- k, si, proti, ke, tomu, mu, jí, kvůli, jim, nám -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">2512</feat><!-- z, do, od, roku, ze, let, během, podle, toho, století -->
